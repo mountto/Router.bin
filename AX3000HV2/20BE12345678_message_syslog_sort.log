@@ -1,0 +1,1325 @@
+############ Self Test Log ############
+CPU check ... Pass.
+CPU Info: 
+processor	: 0
+model name	: ARMv7 Processor rev 4 (v7l)
+BogoMIPS	: 47.50
+Features	: half thumb fastmult edsp tls idiva idivt lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+model name	: ARMv7 Processor rev 4 (v7l)
+BogoMIPS	: 47.50
+Features	: half thumb fastmult edsp tls idiva idivt lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+Hardware	: ECONET (Device Tree)
+Revision	: 0000
+Serial		: 0000000000000000
+
+
+Memory check ... Pass.
+Memory Info: 
+MemTotal:         473148 kB
+MemFree:          209836 kB
+MemAvailable:     231236 kB
+Buffers:           13464 kB
+Cached:            61976 kB
+SwapCached:            0 kB
+Active:            43972 kB
+Inactive:          39612 kB
+Active(anon):      11244 kB
+Inactive(anon):     9392 kB
+Active(file):      32728 kB
+Inactive(file):    30220 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:         473148 kB
+LowFree:          209836 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:          8120 kB
+Mapped:            17740 kB
+Shmem:             12492 kB
+KReclaimable:       7528 kB
+Slab:             107300 kB
+SReclaimable:       7528 kB
+SUnreclaim:        99772 kB
+KernelStack:        1984 kB
+PageTables:          808 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      236572 kB
+Committed_AS:      35960 kB
+VmallocTotal:     507904 kB
+VmallocUsed:       33784 kB
+VmallocChunk:          0 kB
+Percpu:              312 kB
+
+
+Flash check ... Pass.
+Flash Info: 
+dev:    size   erasesize  name
+mtd0: 00080000 00020000 "bootloader"
+mtd1: 02800000 00020000 "tclinux"
+mtd2: 01860000 00020000 "kernel"
+mtd3: 024a8fc0 00020000 "rootfs"
+mtd4: 01d00000 00020000 "tclinux_slave"
+mtd5: 01860000 00020000 "kernel_slave"
+mtd6: 019a8d14 00020000 "rootfs_slave"
+mtd7: 00b00000 00020000 "user_app"
+mtd8: 00800000 00020000 "rootfs_data"
+mtd9: 00500000 00020000 "fpt_data"
+mtd10: 00f00000 00020000 "fpt_overlay"
+mtd11: 00380000 00020000 "art"
+
+
+############ PON Log ############
+[1970-01-01 07:00:49][PON][CRIT]PON Link Down
+[1970-01-01 07:01:04][PON][CRIT]PON Link UP
+############ PPPoE Log ############
+[1970-01-01 07:00:32][PPPoE][DEBUG]PPPoE send PADI.
+[1970-01-01 07:00:42][PPPoE][DEBUG]PPPoE send PADI.
+[1970-01-01 07:00:52][PPPoE][DEBUG]PPPoE send PADI.
+[1970-01-01 07:01:02][PPPoE][DEBUG]PPPoE send PADI.
+[1970-01-01 07:01:02][PPPoE][DEBUG]PPPoE received PADO.
+[1970-01-01 07:01:02][PPPoE][DEBUG]PPPoE send PADR.
+[1970-01-01 07:01:02][PPPoE][DEBUG]PPPoE received PADS.
+[1970-01-01 07:01:03][PPPoE][DEBUG]LCP received ConfReq
+[1970-01-01 07:01:03][PPPoE][DEBUG]LCP received ConfAck
+[1970-01-01 07:01:03][PPPoE][DEBUG]IPCP received ConfReq
+[1970-01-01 07:01:03][PPPoE][DEBUG]IPCP received ConfNak
+[1970-01-01 07:01:03][PPPoE][DEBUG]IPCP received ConfAck
+[1970-01-01 07:01:03][PPPoE][DEBUG]IPCP up.
+[1970-01-01 07:01:03][PPPoE][DEBUG]IP address: 21.253.190.131.
+[1970-01-01 07:01:03][PPPoE][DEBUG]IPv6CP up.
+[1970-01-01 07:01:03][PPPoE][DEBUG]receive chld 17.
+[1970-01-01 07:01:04][PPPoE][DEBUG]receive chld 17.
+############ DHCP Log ############
+[1970-01-01 07:00:33][DHCP][INFO]DHCP, IP range 192.168.1.2 -- 192.168.1.254, lease time 1d
+[1970-01-01 07:00:33][DHCP][INFO]read /etc/ethers - 0 addresses
+[1970-01-01 07:00:33][DHCP][INFO]read /etc/ethers - 0 addresses
+[1970-01-01 07:01:45][DHCP][INFO]DHCP, IP range 192.168.1.2 -- 192.168.1.254, lease time 1d
+[1970-01-01 07:01:45][DHCP][INFO]read /etc/ethers - 0 addresses
+[1970-01-01 07:01:45][DHCP][INFO]read /etc/ethers - 0 addresses
+[1970-01-01 07:01:57][DHCP][INFO]DHCPDISCOVER(br-lan) 54:78:85:24:9f:0d 
+[1970-01-01 07:01:57][DHCP][INFO]DHCPOFFER(br-lan) 192.168.1.234 54:78:85:24:9f:0d 
+[1970-01-01 07:01:58][DHCP][INFO]DHCPDISCOVER(br-lan) 54:78:85:24:9f:0d 
+[1970-01-01 07:01:58][DHCP][INFO]DHCPOFFER(br-lan) 192.168.1.234 54:78:85:24:9f:0d 
+[1970-01-01 07:01:58][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.234 54:78:85:24:9f:0d 
+[1970-01-01 07:01:58][DHCP][INFO]DHCPACK(br-lan) 192.168.1.234 54:78:85:24:9f:0d c05i25100010926_wlan0
+[1970-01-01 07:01:59][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.145 c4:aa:c4:f3:05:40 
+[1970-01-01 07:01:59][DHCP][INFO]DHCPACK(br-lan) 192.168.1.145 c4:aa:c4:f3:05:40 IPC
+[2026-05-27 00:59:09][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.132 46:f6:76:6a:8d:d1 
+[2026-05-27 00:59:09][DHCP][INFO]DHCPACK(br-lan) 192.168.1.132 46:f6:76:6a:8d:d1 Galaxy-A05s
+[2026-05-27 01:03:13][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.64 32:21:96:93:35:7a 
+[2026-05-27 01:03:13][DHCP][INFO]DHCPACK(br-lan) 192.168.1.64 32:21:96:93:35:7a 
+[2026-05-27 01:03:13][DHCP][INFO]write_client_fingerprinting param is NULL!
+[2026-05-27 06:44:35][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.180 2a:06:27:b6:e4:8f 
+[2026-05-27 06:44:35][DHCP][INFO]DHCPACK(br-lan) 192.168.1.180 2a:06:27:b6:e4:8f Galaxy-A35-5G
+[2026-05-27 08:42:53][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f 
+[2026-05-27 08:42:53][DHCP][INFO]DHCPACK(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f ATT-s-S20
+[2026-05-27 08:42:54][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f 
+[2026-05-27 08:42:54][DHCP][INFO]abandoning lease to 9e:38:6f:2c:c3:3f of 192.168.1.162
+[2026-05-27 08:42:54][DHCP][INFO]DHCPACK(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f ATT-s-S20
+[2026-05-27 08:48:44][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f 
+[2026-05-27 08:48:44][DHCP][INFO]abandoning lease to 9e:38:6f:2c:c3:3f of 192.168.1.162
+[2026-05-27 08:48:44][DHCP][INFO]DHCPACK(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f ATT-s-S20
+[2026-05-27 10:29:14][DHCP][INFO]DHCPREQUEST(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f 
+[2026-05-27 10:29:14][DHCP][INFO]abandoning lease to 9e:38:6f:2c:c3:3f of 192.168.1.162
+[2026-05-27 10:29:14][DHCP][INFO]DHCPACK(br-lan) 192.168.1.162 9e:38:6f:2c:c3:3f ATT-s-S20
+############ DDNS Log ############
+[1970-01-01 07:01:04][DDNS][NOTICE] PID '10383' started at 1970-01-01 07:01
+[1970-01-01 07:01:04][DDNS][WARNING] Service section disabled! - TERMINATE
+[1970-01-01 07:01:04][DDNS][WARNING] PID '10383' exit WITH ERROR '1' at 1970-01-01 07:01
+############ WiFi Log ############
+[1970-01-01 07:01:44][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]Size:1, Size_2g:1, Size_5g:0, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[1970-01-01 07:01:44][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]ASSOC - MBSS(0), receive ASSOC request from 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]Send Msg1 of 4-way to sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]Receive Msg2 of 4-way from sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]Send Msg3 of 4-way to sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:44][WiFi][INFO]Receive Msg4 of 4-way from sta 54:78:85:24:9f:0d
+[1970-01-01 07:01:59][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]Size:2, Size_2g:2, Size_5g:0, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[1970-01-01 07:01:59][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]ASSOC - MBSS(0), receive ASSOC request from c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]Send Msg1 of 4-way to sta c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]Receive Msg2 of 4-way from sta c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]Send Msg3 of 4-way to sta c4:aa:c4:f3:05:40
+[1970-01-01 07:01:59][WiFi][INFO]Receive Msg4 of 4-way from sta c4:aa:c4:f3:05:40
+[2026-05-27 00:59:09][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]Size:3, Size_2g:2, Size_5g:1, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 00:59:09][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]ASSOC - MBSS(8), receive ASSOC request from 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]Send Msg1 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]Receive Msg2 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 00:59:09][WiFi][INFO]Receive Msg4 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 01:03:13][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]Size:4, Size_2g:2, Size_5g:2, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 01:03:13][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]ASSOC - MBSS(8), receive ASSOC request from 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]Send Msg1 of 4-way to sta 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]Receive Msg2 of 4-way from sta 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]Send Msg3 of 4-way to sta 32:21:96:93:35:7a
+[2026-05-27 01:03:13][WiFi][INFO]Receive Msg4 of 4-way from sta 32:21:96:93:35:7a
+[2026-05-27 06:44:35][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]Size:5, Size_2g:2, Size_5g:3, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 06:44:35][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]ASSOC - MBSS(8), receive ASSOC request from 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]Send Msg1 of 4-way to sta 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]Receive Msg2 of 4-way from sta 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]Send Msg3 of 4-way to sta 2a:06:27:b6:e4:8f
+[2026-05-27 06:44:35][WiFi][INFO]Receive Msg4 of 4-way from sta 2a:06:27:b6:e4:8f
+[2026-05-27 07:04:29][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]Size:5, Size_2g:3, Size_5g:2, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[2026-05-27 07:04:29][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]ReASSOC - MBSS(0), receive ReASSOC request from 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]Send Msg1 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]Receive Msg2 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:04:29][WiFi][INFO]Receive Msg4 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]Size:5, Size_2g:2, Size_5g:3, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 07:07:32][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]ReASSOC - MBSS(8), receive ReASSOC request from 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]Send Msg1 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]Receive Msg2 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:32][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:33][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:34][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]Send DEAUTH frame with ReasonCode(15) to 46:f6:76:6a:8d:d1 Rssi -97/-96
+[2026-05-27 07:07:35][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]Size:5, Size_2g:3, Size_5g:2, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[2026-05-27 07:07:35][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]ReASSOC - MBSS(0), receive ReASSOC request from 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]Send Msg1 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]Receive Msg2 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:35][WiFi][INFO]Receive Msg4 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:43][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:43][WiFi][INFO]Size:5, Size_2g:2, Size_5g:3, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 07:07:43][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:43][WiFi][INFO]ReASSOC - MBSS(8), receive ReASSOC request from 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:43][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:43][WiFi][INFO]Send Msg1 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:44][WiFi][INFO]Send Msg1 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:44][WiFi][INFO]Receive Msg2 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:44][WiFi][INFO]Send Msg3 of 4-way to sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:07:44][WiFi][INFO]Receive Msg4 of 4-way from sta 46:f6:76:6a:8d:d1
+[2026-05-27 07:16:48][WiFi][INFO]sta 46:f6:76:6a:8d:d1 ageout after 480-sec silence
+[2026-05-27 07:16:48][WiFi][INFO]Send DEAUTH TO 46:f6:76:6a:8d:d1 Reason 3 Rssi -99/-98
+[2026-05-27 07:16:53][WiFi][INFO]sta 2a:06:27:b6:e4:8f ageout after 480-sec silence
+[2026-05-27 07:16:53][WiFi][INFO]Send DEAUTH TO 2a:06:27:b6:e4:8f Reason 3 Rssi -86/-85
+[2026-05-27 08:42:51][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:51][WiFi][INFO]Size:4, Size_2g:3, Size_5g:1, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[2026-05-27 08:42:51][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:51][WiFi][INFO]ASSOC - MBSS(0), receive ASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:51][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:51][WiFi][INFO]ASSOC - MBSS(0), receive ASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:51][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:51][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:52][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:52][WiFi][INFO]Receive Msg2 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:52][WiFi][INFO]Send Msg3 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:42:52][WiFi][INFO]Receive Msg4 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]Size:4, Size_2g:2, Size_5g:2, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 08:45:14][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]ReASSOC - MBSS(8), receive ReASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]Receive Msg2 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:14][WiFi][INFO]Send Msg3 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:45:15][WiFi][INFO]Receive Msg4 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]Size:4, Size_2g:3, Size_5g:1, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[2026-05-27 08:48:43][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]ASSOC - MBSS(0), receive ASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]Receive Msg2 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]Send Msg3 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 08:48:43][WiFi][INFO]Receive Msg4 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 09:01:36][WiFi][INFO]sta 9e:38:6f:2c:c3:3f ageout after 480-sec silence
+[2026-05-27 09:01:36][WiFi][INFO]Send DEAUTH TO 9e:38:6f:2c:c3:3f Reason 3 Rssi -99/-96
+[2026-05-27 10:29:14][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]Size:4, Size_2g:3, Size_5g:1, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[2026-05-27 10:29:14][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]ASSOC - MBSS(0), receive ASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]ASSOC - Send ASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]Receive Msg2 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]Send Msg3 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:14][WiFi][INFO]Receive Msg4 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]AUTH - MBSS(8), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]Size:4, Size_2g:2, Size_5g:2, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:8.
+[2026-05-27 10:29:58][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]ReASSOC - MBSS(8), receive ReASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]Receive Msg2 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]Send Msg3 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:29:58][WiFi][INFO]Receive Msg4 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]AUTH - MBSS(0), Rcv AUTH request from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]Size:4, Size_2g:3, Size_5g:1, MaxStaLimit:0, MaxStaLimit11ac:0, TB_IDX:0.
+[2026-05-27 10:30:53][WiFi][INFO]AUTH_RSP - Send AUTH response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]ReASSOC - MBSS(0), receive ReASSOC request from 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]ReASSOC - Send ReASSOC response (SUCCESS) to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]Send Msg1 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]Receive Msg2 of 4-way from sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]Send Msg3 of 4-way to sta 9e:38:6f:2c:c3:3f
+[2026-05-27 10:30:53][WiFi][INFO]Receive Msg4 of 4-way from sta 9e:38:6f:2c:c3:3f
+############ WiFi_2G RSSI Log ############
+[1970-01-01 07:01:44][WiFi_2G RSSI][INFO]macAddr-54:78:85:24:9f:0d BAND:0 APIdx:0 RSSI0:-52 RSSI1:-46
+[1970-01-01 07:01:59][WiFi_2G RSSI][INFO]macAddr-c4:aa:c4:f3:05:40 BAND:0 APIdx:0 RSSI0:-62 RSSI1:-54
+[2026-05-27 07:04:29][WiFi_2G RSSI][INFO]macAddr-46:f6:76:6a:8d:d1 BAND:0 APIdx:0 RSSI0:-54 RSSI1:-54
+[2026-05-27 07:07:35][WiFi_2G RSSI][INFO]macAddr-46:f6:76:6a:8d:d1 BAND:0 APIdx:0 RSSI0:-80 RSSI1:-74
+[2026-05-27 08:42:51][WiFi_2G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:0 APIdx:0 RSSI0:-96 RSSI1:-86
+[2026-05-27 08:42:51][WiFi_2G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:0 APIdx:0 RSSI0:-85 RSSI1:-85
+[2026-05-27 08:48:43][WiFi_2G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:0 APIdx:0 RSSI0:-99 RSSI1:-94
+[2026-05-27 10:29:14][WiFi_2G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:0 APIdx:0 RSSI0:-80 RSSI1:-87
+[2026-05-27 10:30:53][WiFi_2G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:0 APIdx:0 RSSI0:-78 RSSI1:-73
+############ WiFi_5G RSSI Log ############
+[2026-05-27 00:59:09][WiFi_5G RSSI][INFO]macAddr-46:f6:76:6a:8d:d1 BAND:1 APIdx:8 RSSI0:-72 RSSI1:-77
+[2026-05-27 01:03:13][WiFi_5G RSSI][INFO]macAddr-32:21:96:93:35:7a BAND:1 APIdx:8 RSSI0:-73 RSSI1:-71
+[2026-05-27 06:44:35][WiFi_5G RSSI][INFO]macAddr-2a:06:27:b6:e4:8f BAND:1 APIdx:8 RSSI0:-76 RSSI1:-70
+[2026-05-27 07:07:32][WiFi_5G RSSI][INFO]macAddr-46:f6:76:6a:8d:d1 BAND:1 APIdx:8 RSSI0:-101 RSSI1:-98
+[2026-05-27 07:07:43][WiFi_5G RSSI][INFO]macAddr-46:f6:76:6a:8d:d1 BAND:1 APIdx:8 RSSI0:-101 RSSI1:-99
+[2026-05-27 08:45:14][WiFi_5G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:1 APIdx:8 RSSI0:-102 RSSI1:-99
+[2026-05-27 10:29:58][WiFi_5G RSSI][INFO]macAddr-9e:38:6f:2c:c3:3f BAND:1 APIdx:8 RSSI0:-91 RSSI1:-77
+############ MESH Log ############
+[1970-01-01 07:01:28][MESH][INFO]radio_2g_disable = 0, radio_5g_disable = 0, ra0_disable = 0, rai0_disable = 0
+[1970-01-01 07:01:28][MESH][INFO]set bs20 switch to close
+[1970-01-01 07:01:28][MESH][INFO]set bs20 switch to open
+[1970-01-01 07:01:29][MESH][INFO]map_enable=0, set bh EnableSSID to 0
+[1970-01-01 07:01:29][MESH][INFO]radio_2g_disable = 0, radio_5g_disable = 0, ra0_disable = 0, rai0_disable = 0
+[1970-01-01 07:01:29][MESH][INFO]set bs20 switch to close
+[1970-01-01 07:01:29][MESH][INFO]set bs20 switch to open
+[1970-01-01 07:01:29][MESH][INFO]map_enable=0, set bh EnableSSID to 0
+[1970-01-01 07:01:29][MESH][INFO]radio_2g_disable = 0, radio_5g_disable = 0, ra0_disable = 0, rai0_disable = 0
+[1970-01-01 07:01:29][MESH][INFO]set bs20 switch to close
+[1970-01-01 07:01:29][MESH][INFO]set bs20 switch to open
+[1970-01-01 07:01:29][MESH][INFO]map_enable=0, set bh EnableSSID to 0
+[1970-01-01 07:01:30][MESH][INFO]radio_2g_disable = 0, radio_5g_disable = 0, ra0_disable = 0, rai0_disable = 0
+[1970-01-01 07:01:30][MESH][INFO]set bs20 switch to close
+[1970-01-01 07:01:30][MESH][INFO]set bs20 switch to open
+[1970-01-01 07:01:30][MESH][INFO]map_enable=0, set bh EnableSSID to 0
+[1970-01-01 07:02:04][MESH][INFO]dynamic_gen_mesh_cfg for uci2mesh
+[1970-01-01 07:02:06][MESH][INFO]bs20 is enable, to start bs20 process
+[1969-12-31 16:02:07][MESH][INFO]NOTIFY_WAPP_READY
+[1970-01-01 07:02:07][MESH][INFO]NOTIFY_WAPP_DEV_READY
+[1970-01-01 07:02:12][MESH][INFO]NOTIFY_MAPD_READY
+[2026-05-27 00:59:09][MESH][INFO]Sta mac 46:f6:76:6a:8d:d1 BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 01:03:13][MESH][INFO]Sta mac 32:21:96:93:35:7a BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 06:44:35][MESH][INFO]Sta mac 2a:06:27:b6:e4:8f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 07:04:29][MESH][INFO]Sta mac 46:f6:76:6a:8d:d1 BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 07:07:35][MESH][INFO]Sta mac 46:f6:76:6a:8d:d1 BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 07:07:44][MESH][INFO]Sta mac 46:f6:76:6a:8d:d1 BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 08:42:52][MESH][INFO]Sta mac 9e:38:6f:2c:c3:3f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 08:45:15][MESH][INFO]Sta mac 9e:38:6f:2c:c3:3f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 08:45:28][MESH][INFO]Send btmReq to 9e:38:6f:2c:c3:3f, method IDLE_STANDALONE_DG, cr_rssi -98, cr_bssid 20:be:b4:1f:2d:37, cr_ch 40, tg_bssid 20:be:b4:1f:2d:28, tg_ch 7
+[2026-05-27 08:45:28][MESH][INFO]Recv btm resp from STA 9e:38:6f:2c:c3:3f, Target 00:00:00:00:00:00,  status(1)
+[2026-05-27 08:45:28][MESH][INFO]Send btmReq to 9e:38:6f:2c:c3:3f, method IDLE_STANDALONE_DG, cr_rssi -98, cr_bssid 20:be:b4:1f:2d:37, cr_ch 40, tg_bssid 20:be:b4:1f:2d:28, tg_ch 7
+[2026-05-27 08:45:28][MESH][INFO]Recv btm resp from STA 9e:38:6f:2c:c3:3f, Target 00:00:00:00:00:00,  status(1)
+[2026-05-27 08:45:28][MESH][INFO]Send btmReq to 9e:38:6f:2c:c3:3f, method IDLE_STANDALONE_DG, cr_rssi -98, cr_bssid 20:be:b4:1f:2d:37, cr_ch 40, tg_bssid 20:be:b4:1f:2d:28, tg_ch 7
+[2026-05-27 08:45:28][MESH][INFO]Recv btm resp from STA 9e:38:6f:2c:c3:3f, Target 00:00:00:00:00:00,  status(1)
+[2026-05-27 08:48:43][MESH][INFO]Sta mac 9e:38:6f:2c:c3:3f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 10:29:14][MESH][INFO]Sta mac 9e:38:6f:2c:c3:3f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 10:29:58][MESH][INFO]Sta mac 9e:38:6f:2c:c3:3f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+[2026-05-27 10:30:54][MESH][INFO]Sta mac 9e:38:6f:2c:c3:3f BTM Cap is YES, RRM Cap is YES, MBO Cap is NO
+############ FIREWALL Log ############
+[1970-01-01 07:00:30][FIREWALL][WARNING]Failed to connect to ubus
+[1970-01-01 07:00:30][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:00:30][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:30][FIREWALL][WARNING]Section @zone[0] (lan) cannot resolve device of network 'lan'
+[1970-01-01 07:00:30][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan'
+[1970-01-01 07:00:30][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:00:30][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'iptv'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:00:30][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:00:30][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:00:30][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:00:30][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:00:30][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:00:30][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:30][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:00:30][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:00:30][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:00:30][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:00:30][FIREWALL][INFO] * Running script '/etc/firewall.user'
+[1970-01-01 07:00:30][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:00:32][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:00:32][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @zone[0] (lan) has no device, network, subnet or extra options
+[1970-01-01 07:00:32][FIREWALL][WARNING]Section @zone[1] (wan) has no device, network, subnet or extra options
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:00:32][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:00:32][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:00:32][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:00:32][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:00:32][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:00:32][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:32][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:00:32][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:32][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:00:32][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:00:32][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:00:32][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:00:32][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:00:34][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:00:34][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:00:34][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:00:34][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:00:34][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:00:34][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:00:34][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:00:34][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:00:34][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:00:34][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:00:34][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:00:34][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:00:34][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:00:34][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:00:34][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:00:34][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:00:34][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:03][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:03][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:03][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:03][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:01:03][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:01:03][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:01:03][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:01:03][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:01:03][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:01:03][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:03][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:03][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:03][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:03][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:01:03][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:01:03][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:01:03][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:01:04][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:04][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 0'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 1'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 2'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 3'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:01:04][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:01:04][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:01:04][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:01:04][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:01:04][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:01:04][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:01:04][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:01:04][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:01:04][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:01:04][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:04][FIREWALL][WARNING]Rediect stderr to /dev/null
+[1970-01-01 07:01:04][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:04][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 0'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 1'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 2'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 3'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:04][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:04][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:04][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:01:04][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:01:05][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:01:05][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:05][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:05][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:05][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:05][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:01:05][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:01:05][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:01:05][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:01:05][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:01:05][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:01:05][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:05][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:05][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:05][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:05][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:01:05][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:01:05][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:01:05][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:01:05][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:05][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:05][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:06][FIREWALL][WARNING]Rediect stderr to /dev/null
+[1970-01-01 07:01:06][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:06][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:06][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:06][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 0'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 1'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 2'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 3'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:01:06][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:01:06][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:01:06][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:01:06][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:01:06][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:01:06][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:06][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:06][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:06][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:06][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:01:06][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:01:06][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:01:06][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:01:06][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:06][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:06][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:07][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:07][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 0'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 1'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 2'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 3'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:01:07][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:01:07][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:01:07][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:01:07][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:01:07][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:01:07][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:07][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:07][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:07][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:07][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:01:07][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:01:07][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:01:07][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:01:07][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:07][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:07][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:45][FIREWALL][WARNING]Rediect stderr to /dev/null
+[1970-01-01 07:01:45][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:45][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:45][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:45][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv4 filter table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv4 nat table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv4 mangle table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv4 raw table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 filter table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 0'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 1'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 2'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 3'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 nat table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 mangle table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 raw table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv6 filter table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv6 nat table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv6 mangle table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Clearing IPv6 raw table
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 filter table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 nat table
+[1970-01-01 07:01:45][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[1970-01-01 07:01:45][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[1970-01-01 07:01:45][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[1970-01-01 07:01:45][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[1970-01-01 07:01:45][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[1970-01-01 07:01:45][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 mangle table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 raw table
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'lan'
+[1970-01-01 07:01:45][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[1970-01-01 07:01:45][FIREWALL][INFO]   * Zone 'wan'
+[1970-01-01 07:01:45][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[1970-01-01 07:01:45][FIREWALL][INFO] * Set tcp_ecn to off
+[1970-01-01 07:01:45][FIREWALL][INFO] * Set tcp_syncookies to on
+[1970-01-01 07:01:45][FIREWALL][INFO] * Set tcp_window_scaling to on
+[1970-01-01 07:01:45][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[1970-01-01 07:01:45][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:45][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:45][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[1970-01-01 07:01:46][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[1970-01-01 07:01:46][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[1970-01-01 07:01:46][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[2026-05-27 00:52:56][FIREWALL][WARNING]Rediect stderr to /dev/null
+[2026-05-27 00:52:56][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv4 filter table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv4 nat table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv4 mangle table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv4 raw table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 filter table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 0'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 1'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 2'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'ubus:igmpproxy[instance1] rule 3'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-DHCP-Renew'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-Ping'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-IGMP'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 4
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 filter table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 nat table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 nat table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 mangle table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 mangle table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 raw table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv4 raw table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv6 filter table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv6 nat table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv6 mangle table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Clearing IPv6 raw table
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 filter table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-DHCPv6'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-MLD'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Input'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-ICMPv6-Forward'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-IPSec-ESP'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-ISAKMP'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'Allow-ACS-Server'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'lan_access_22_accept'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'lan_access_22_drop'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'WAN_SSH_ALLOW'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]     ! Skipping due to different family of ip address
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Rule 'WAN_SSH_DENY'  family 5
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Forward 'lan' -> 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 filter table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 nat table
+[2026-05-27 00:52:56][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+[2026-05-27 00:52:56][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+[2026-05-27 00:52:56][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+[2026-05-27 00:52:56][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+[2026-05-27 00:52:56][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+[2026-05-27 00:52:56][FIREWALL][WARNING]fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 nat table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 mangle table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 mangle table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 raw table
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'lan'
+[2026-05-27 00:52:56][FIREWALL][INFO]     - Using automatic conntrack helper attachment
+[2026-05-27 00:52:56][FIREWALL][INFO]   * Zone 'wan'
+[2026-05-27 00:52:56][FIREWALL][INFO] * Populating IPv6 raw table fw3_commit_table_flag = 0
+[2026-05-27 00:52:56][FIREWALL][INFO] * Set tcp_ecn to off
+[2026-05-27 00:52:56][FIREWALL][INFO] * Set tcp_syncookies to on
+[2026-05-27 00:52:56][FIREWALL][INFO] * Set tcp_window_scaling to on
+[2026-05-27 00:52:56][FIREWALL][INFO] * Running script '/usr/share/miniupnpd/firewall.include'
+[2026-05-27 00:52:56][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+[2026-05-27 00:52:56][FIREWALL][WARNING]Unable to locate ipset utility, disabling ipset support
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @defaults[0] requires unavailable target extension FLOWOFFLOAD, disabling
+[2026-05-27 00:52:56][FIREWALL][WARNING]Section @zone[1] (wan) cannot resolve device of network 'wan6'
+############ DHCPv6 Log ############
+[1970-01-01 07:01:03][DHCPv6][DEBUG]Failed to send RS.
+[1970-01-01 07:01:03][DHCPv6][DEBUG]Send RS ok.
+[1970-01-01 07:01:03][DHCPv6][DEBUG](re)starting transaction on pppoe-wan
+[1970-01-01 07:01:04][DHCPv6][DEBUG]Starting SOLICIT transaction (timeout 4294967295s, max rc 0)
+[1970-01-01 07:01:04][DHCPv6][DEBUG]Got a valid ADVERTISE after 219ms
+[1970-01-01 07:01:04][DHCPv6][DEBUG]IA_PD 0001 T1 9000 T2 14400
+[1970-01-01 07:01:04][DHCPv6][DEBUG]2405:4802:6547:c840::/60 preferred 18000 valid 18000
+[1970-01-01 07:01:05][DHCPv6][DEBUG]Starting REQUEST transaction (timeout 4294967295s, max rc 10)
+[1970-01-01 07:01:05][DHCPv6][DEBUG]Send REQUEST message (elapsed 0ms, rc 0)
+[1970-01-01 07:01:05][DHCPv6][DEBUG]Got a valid REPLY after 62ms
+[1970-01-01 07:01:05][DHCPv6][DEBUG]IA_PD 0001 T1 9000 T2 14400
+[1970-01-01 07:01:05][DHCPv6][DEBUG]2405:4802:6547:c840::/60 preferred 18000 valid 18000
+[1970-01-01 07:01:05][DHCPv6][DEBUG]entering stateful-mode on pppoe-wan
+[1970-01-01 07:01:05][DHCPv6][DEBUG]Starting <POLL> transaction (timeout 9000s, max rc 0)
+[2026-05-27 03:21:44][DHCPv6][DEBUG]Starting RENEW transaction (timeout 5400s, max rc 0)
+[2026-05-27 03:21:44][DHCPv6][DEBUG]Send RENEW message (elapsed 0ms, rc 0)
+[2026-05-27 03:21:44][DHCPv6][DEBUG]Got a valid REPLY after 2ms
+[2026-05-27 03:21:44][DHCPv6][DEBUG]IA_PD 0001 T1 9000 T2 14400
+[2026-05-27 03:21:44][DHCPv6][DEBUG]2405:4802:6547:c840::/60 preferred 18000 valid 18000
+[2026-05-27 03:21:44][DHCPv6][DEBUG]Starting <POLL> transaction (timeout 9000s, max rc 0)
+[2026-05-27 05:51:44][DHCPv6][DEBUG]Starting RENEW transaction (timeout 5400s, max rc 0)
+[2026-05-27 05:51:44][DHCPv6][DEBUG]Send RENEW message (elapsed 0ms, rc 0)
+[2026-05-27 05:51:44][DHCPv6][DEBUG]Got a valid REPLY after 3ms
+[2026-05-27 05:51:44][DHCPv6][DEBUG]IA_PD 0001 T1 9000 T2 14400
+[2026-05-27 05:51:44][DHCPv6][DEBUG]2405:4802:6547:c840::/60 preferred 18000 valid 18000
+[2026-05-27 05:51:44][DHCPv6][DEBUG]Starting <POLL> transaction (timeout 9000s, max rc 0)
+[2026-05-27 08:21:44][DHCPv6][DEBUG]Starting RENEW transaction (timeout 5400s, max rc 0)
+[2026-05-27 08:21:44][DHCPv6][DEBUG]Send RENEW message (elapsed 0ms, rc 0)
+[2026-05-27 08:21:44][DHCPv6][DEBUG]Got a valid REPLY after 1ms
+[2026-05-27 08:21:44][DHCPv6][DEBUG]IA_PD 0001 T1 9000 T2 14400
+[2026-05-27 08:21:44][DHCPv6][DEBUG]2405:4802:6547:c840::/60 preferred 18000 valid 18000
+[2026-05-27 08:21:44][DHCPv6][DEBUG]Starting <POLL> transaction (timeout 9000s, max rc 0)

@@ -1,0 +1,1486 @@
+[    4.017130] 26 fixed-partitions partitions found on MTD device qcom_nand.0
+[    4.024936] Creating 26 MTD partitions on "qcom_nand.0":
+[    4.031733] 0x000000000000-0x000000080000 : "0:SBL1"
+[    4.038754] 0x000000080000-0x000000100000 : "0:MIBIB"
+[    4.043518] 0x000000100000-0x000000140000 : "0:BOOTCONFIG"
+[    4.048384] 0x000000140000-0x000000180000 : "0:BOOTCONFIG1"
+[    4.053603] 0x000000180000-0x000000280000 : "0:QSEE"
+[    4.060046] 0x000000280000-0x000000380000 : "0:QSEE_1"
+[    4.065023] 0x000000380000-0x0000003c0000 : "0:DEVCFG"
+[    4.069441] 0x0000003c0000-0x000000400000 : "0:DEVCFG_1"
+[    4.074355] 0x000000400000-0x000000440000 : "0:CDT"
+[    4.080090] 0x000000440000-0x000000480000 : "0:CDT_1"
+[    4.084457] 0x000000480000-0x000000500000 : "0:APPSBLENV"
+[    4.090073] 0x000000500000-0x000000640000 : "0:APPSBL"
+[    4.096158] 0x000000640000-0x000000780000 : "0:APPSBL_1"
+[    4.101128] 0x000000780000-0x000000880000 : "0:ART"
+[    4.106336] 0x000000880000-0x000000900000 : "0:TRAINING"
+[    4.110487] 0x000000900000-0x000000980000 : "APPSBLENV_1"
+[    4.116034] 0x000000980000-0x000000a80000 : "ART_1"
+[    4.121782] 0x000000a80000-0x000000b00000 : "TRAINING_1"
+[    4.126050] 0x000000b00000-0x000000c00000 : "cert"
+[    4.132116] 0x000000c00000-0x000000d00000 : "cert_1"
+[    4.136644] 0x000000d00000-0x000005d00000 : "rootfs"
+[    4.216804] mtd: device 20 (rootfs) set to be root filesystem
+[    4.217236] mtdsplit: no squashfs found in "rootfs"
+[    4.221765] 0x000005d00000-0x00000ad00000 : "rootfs_1"
+[    4.302771] 0x00000ad00000-0x00000bd00000 : "aei_cfg"
+[    4.319095] 0x00000bd00000-0x00000cd00000 : "aei_cfg_1"
+[    4.335305] 0x00000cd00000-0x00000f900000 : "aei_app"
+[    4.378272] 0x00000f900000-0x00000fa00000 : "reserved"
+[    4.381202] spi_qup 78b5000.spi: IN:block:16, fifo:64, OUT:block:16, fifo:64
+[    4.383534] spi-nor spi0.0: unrecognized JEDEC id bytes: 00 00 00 00 00 00
+[    4.390349] yt9215s soc:yt@29: cannot find mdio bus from bus handle (yet)
+[    4.397285] mdio_bus fixed-0: GPIO lookup for consumer reset
+[    4.397297] mdio_bus fixed-0: using lookup tables for GPIO lookup
+[    4.397306] mdio_bus fixed-0: No GPIO consumer reset found
+[    4.397332] libphy: Fixed MDIO Bus: probed
+[    4.614574] qca-mdio 88000.mdio: CIG clk_div =f
+[    4.614826] of_get_named_gpiod_flags: can't parse 'phy-reset-gpio' property of node '/soc/mdio@88000[0]'
+[    4.614837] qca-mdio 88000.mdio: Could not find phy-reset-gpio
+[    4.618233] mdio_bus 88000.mdio: GPIO lookup for consumer reset
+[    4.618242] mdio_bus 88000.mdio: using device tree for GPIO lookup
+[    4.618265] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/soc/mdio@88000[0]'
+[    4.618282] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/soc/mdio@88000[0]'
+[    4.618296] mdio_bus 88000.mdio: using lookup tables for GPIO lookup
+[    4.618305] mdio_bus 88000.mdio: No GPIO consumer reset found
+[    4.618310] libphy: qca_mdio: probed
+[    4.624501] mdio_bus 88000.mdio:07: GPIO lookup for consumer reset
+[    4.624512] mdio_bus 88000.mdio:07: using device tree for GPIO lookup
+[    4.624538] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/soc/mdio@88000/ethernet-phy@0[0]'
+[    4.624555] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/soc/mdio@88000/ethernet-phy@0[0]'
+[    4.624566] mdio_bus 88000.mdio:07: using lookup tables for GPIO lookup
+[    4.624575] mdio_bus 88000.mdio:07: No GPIO consumer reset found
+[    4.624746] qca-mdio 88000.mdio: qca-mdio driver was registered
+[    4.848108] qca-mdio 90000.mdio: CIG clk_div =ff
+[    4.848275] of_get_named_gpiod_flags: parsed 'phy-reset-gpio' property of node '/soc/mdio@90000[0]' - status (0)
+[    4.848300] active vlaue is 1, 0
+[    5.072084] of_get_named_gpiod_flags: can't parse 'phy-reset-gpio' property of node '/soc/mdio@90000[1]'
+[    5.072095] qca-mdio 90000.mdio: Could not find phy-reset-gpio
+[    5.072387] mdio_bus 90000.mdio: GPIO lookup for consumer reset
+[    5.072396] mdio_bus 90000.mdio: using device tree for GPIO lookup
+[    5.072418] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/soc/mdio@90000[0]'
+[    5.072435] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/soc/mdio@90000[0]'
+[    5.072448] mdio_bus 90000.mdio: using lookup tables for GPIO lookup
+[    5.072457] mdio_bus 90000.mdio: No GPIO consumer reset found
+[    5.072462] libphy: qca_mdio: probed
+[    5.077884] mdio_bus 90000.mdio:1d: GPIO lookup for consumer reset
+[    5.077895] mdio_bus 90000.mdio:1d: using device tree for GPIO lookup
+[    5.077921] of_get_named_gpiod_flags: can't parse 'reset-gpios' property of node '/soc/mdio@90000/ethernet-phy@0[0]'
+[    5.077938] of_get_named_gpiod_flags: can't parse 'reset-gpio' property of node '/soc/mdio@90000/ethernet-phy@0[0]'
+[    5.077949] mdio_bus 90000.mdio:1d: using lookup tables for GPIO lookup
+[    5.077957] mdio_bus 90000.mdio:1d: No GPIO consumer reset found
+[    5.078117] qca-mdio 90000.mdio: qca-mdio driver was registered
+[    5.191023] i2c /dev entries driver
+[    5.192186] qcom-tsens 4a9000.thermal-sensor: tsens device is not enabled
+[    5.194854] device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+[    5.201724] cpufreq: cpufreq_online: CPU0: Running at unlisted freq: 799999 KHz
+[    5.209017] cpufreq: cpufreq_online: CPU0: Unlisted initial frequency changed to: 800000 KHz
+[    5.217076] sdhci: Secure Digital Host Controller Interface driver
+[    5.224645] sdhci: Copyright(c) Pierre Ossman
+[    5.230624] sdhci-pltfm: SDHCI platform and OF driver helper
+[    5.235541] 
+[    5.235541] Version Rollback Feature Disabled
+[    5.243396] remoteproc remoteproc0: cd00000.remoteproc is available
+[    5.247674] remoteproc remoteproc1: 4ab000.remoteproc_pd1 is available
+[    5.253521] remoteproc remoteproc2: cd00000.remoteproc:remoteproc_pd2 is available
+[    5.259978] coresight-tmc 6047000.tmc: failed to get flush cti, defer probe
+[    5.267036] coresight-dynamic-funnel 6041000.funnel: Uses obsolete Coresight DT bindings
+[    5.276411] coresight coresight-etm0: CPU0: ETM v4.0 initialized
+[    5.282002] coresight-etm4x 619c000.etm: CPU0: (null) initialized
+[    5.288421] coresight coresight-etm1: CPU1: ETM v4.0 initialized
+[    5.293921] coresight-etm4x 619d000.etm: CPU1: (null) initialized
+[    5.300259] coresight-stm 6002000.stm: coresight-stm : stm_register_device failed, probing deferred
+[    5.306187] OF: graph: no port node found in /soc/cti@6010000
+[    5.315260] OF: graph: no port node found in /soc/cti@6011000
+[    5.321065] OF: graph: no port node found in /soc/cti@6012000
+[    5.326850] OF: graph: no port node found in /soc/cti@6013000
+[    5.332415] OF: graph: no port node found in /soc/cti@6014000
+[    5.338270] OF: graph: no port node found in /soc/cti@6015000
+[    5.343873] OF: graph: no port node found in /soc/cti@6016000
+[    5.349766] OF: graph: no port node found in /soc/cti@6017000
+[    5.355328] OF: graph: no port node found in /soc/cti@6018000
+[    5.361196] OF: graph: no port node found in /soc/cti@6019000
+[    5.366858] OF: graph: no port node found in /soc/cti@601a000
+[    5.372578] OF: graph: no port node found in /soc/cti@601b000
+[    5.378322] OF: graph: no port node found in /soc/cti@601c000
+[    5.384021] OF: graph: no port node found in /soc/cti@601d000
+[    5.389792] OF: graph: no port node found in /soc/cti@601e000
+[    5.395450] OF: graph: no port node found in /soc/cti@601f000
+[    5.401315] OF: graph: no port node found in /soc/cti@6198000
+[    5.406967] OF: graph: no port node found in /soc/cti@6199000
+[    5.412732] OF: graph: no port node found in /soc/cti@610c000
+[    5.419602] OF: graph: no port node found in /soc/hwevent@6101000
+[    5.423873] coresight-hwevent 6101000.hwevent: No csr data
+[    5.430329] OF: graph: no port node found in /soc/csr@6001000
+[    5.435463] coresight-csr 6001000.csr: CSR initialized: coresight-csr
+[    5.443406] NET: Registered protocol family 10
+[    5.448787] Segment Routing with IPv6
+[    5.451899] NET: Registered protocol family 17
+[    5.455654] Bridge firewalling registered
+[    5.459965] 8021q: 802.1Q VLAN Support v1.8
+[    5.464303] Registering SWP/SWPB emulation handler
+[    5.468293] Loading compiled-in X.509 certificates
+[    5.473472] pstore: Using crash dump compression: deflate
+[    5.490820] yt9215s soc:yt@29: using MDIO bus 'qca_mdio'
+[    7.376445] mdio_bus soc:yt@29: GPIO lookup for consumer reset
+[    7.376455] mdio_bus soc:yt@29: using lookup tables for GPIO lookup
+[    7.376497] mdio_bus soc:yt@29: No GPIO consumer reset found
+[    7.383893] mdio_bus soc:yt@29:00: GPIO lookup for consumer reset
+[    7.383902] mdio_bus soc:yt@29:00: using lookup tables for GPIO lookup
+[    7.383909] mdio_bus soc:yt@29:00: No GPIO consumer reset found
+[    7.391387] mdio_bus soc:yt@29:01: GPIO lookup for consumer reset
+[    7.391396] mdio_bus soc:yt@29:01: using lookup tables for GPIO lookup
+[    7.391403] mdio_bus soc:yt@29:01: No GPIO consumer reset found
+[    7.398862] mdio_bus soc:yt@29:02: GPIO lookup for consumer reset
+[    7.398872] mdio_bus soc:yt@29:02: using lookup tables for GPIO lookup
+[    7.398879] mdio_bus soc:yt@29:02: No GPIO consumer reset found
+[    7.406269] mdio_bus soc:yt@29:03: GPIO lookup for consumer reset
+[    7.406278] mdio_bus soc:yt@29:03: using lookup tables for GPIO lookup
+[    7.406285] mdio_bus soc:yt@29:03: No GPIO consumer reset found
+[    7.413701] mdio_bus soc:yt@29:04: GPIO lookup for consumer reset
+[    7.413711] mdio_bus soc:yt@29:04: using lookup tables for GPIO lookup
+[    7.413718] mdio_bus soc:yt@29:04: No GPIO consumer reset found
+[    7.413835] libphy: soc:yt@29: probed
+[    7.417959] sps_register_bam_device: sps:BAM 0x06064000 is registered
+[    7.419450] coresight coresight-stm: STM32 initialized
+[    7.423869] ubi0: attaching mtd20
+[    7.762087] ubi0: scanning is finished
+[    7.768839] ubi0: attached mtd20 (name "rootfs", size 80 MiB)
+[    7.768962] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    7.773721] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    7.780551] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    7.787304] ubi0: good PEBs: 640, bad PEBs: 0, corrupted PEBs: 0
+[    7.794123] ubi0: user volume: 5, internal volumes: 1, max. volumes count: 128
+[    7.800318] ubi0: max/mean erase counter: 3/1, WL threshold: 4096, image sequence number: 1043569791
+[    7.807433] ubi0: available PEBs: 40, total reserved PEBs: 600, PEBs reserved for bad PEB handling: 40
+[    7.816755] ubi0: background thread "ubi_bgt0d" started, PID 86
+[    7.820456] hctosys: unable to open rtc device (rtc0)
+[    7.832264] ALSA device list:
+[    7.836799]   No soundcards found.
+[    7.843701] VFS: Mounted root (squashfs filesystem) readonly on device 31:29.
+[    7.845782] Freeing unused kernel memory: 1024K
+[    7.876711] Run /sbin/init as init process
+[    8.187349] init: Console is alive
+[    8.187729] init: - watchdog -
+[   10.034313] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[   10.057892] Button Hotplug driver version 0.4.1
+[   10.059771] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/gpio_keys/button@1[0]' - status (0)
+[   10.059803] of_get_named_gpiod_flags: parsed 'gpios' property of node '/soc/gpio_keys/button@2[0]' - status (0)
+[   10.059836] gpio-492 (rst): gpiod_set_debounce: missing set() or set_config() operations
+[   10.059850] gpio-491 (wps): gpiod_set_debounce: missing set() or set_config() operations
+[   10.062240] kmod of oui-bwm is started
+[   10.062775] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+[   10.070326] init: - preinit -
+[   15.220131] urandom-seed: Seed file not found (/etc/urandom.seed)
+[   15.268981] procd: - early -
+[   15.269280] procd: - watchdog -
+[   15.869018] procd: - watchdog -
+[   15.869457] procd: - ubus -
+[   15.932973] procd: - init -
+[   16.052717] cnss: INFO: IPC Logging is disabled!
+[   16.056411] cnss[2]: INFO: Platform driver probed successfully. plat 0x3d1a55ad tgt 0xfffc
+[   16.059258] cnss[41]: INFO: Platform driver probed successfully. plat 0x1c28fd3c tgt 0xfffb
+[   16.066866] cnss: INFO: cnss_plat_ipc_qmi_svc_init: CNSS Platform IPC QMI Service is started
+[   16.072836] cnss[41]: INFO: Default MLO configuration is set!
+[   16.112025] ubi1: attaching mtd22
+[   16.241047] ubi1: scanning is finished
+[   16.251296] ubi1: attached mtd22 (name "aei_cfg", size 16 MiB)
+[   16.251499] ubi1: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   16.256178] ubi1: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[   16.263092] ubi1: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   16.270077] ubi1: good PEBs: 128, bad PEBs: 0, corrupted PEBs: 0
+[   16.276668] ubi1: user volume: 1, internal volumes: 1, max. volumes count: 128
+[   16.282973] ubi1: max/mean erase counter: 91/36, WL threshold: 4096, image sequence number: 164927972
+[   16.290116] ubi1: available PEBs: 0, total reserved PEBs: 128, PEBs reserved for bad PEB handling: 40
+[   16.299646] ubi1: background thread "ubi_bgt1d" started, PID 191
+[   16.376891] UBIFS (ubi1:0): Mounting in unauthenticated mode
+[   16.377393] UBIFS (ubi1:0): background thread "ubifs_bgt1_0" started, PID 205
+[   16.410725] UBIFS (ubi1:0): recovery needed
+[   16.555010] cnss: INFO: cnss_plat_ipc_qmi_reg_client_req_handler: QMI Client Connected. QMI Socket Node: 1 Port: 16392 ID: 1
+[   16.555221] cnss: INFO: CNSS Daemon connected
+[   16.571512] cnss: INFO: cnss_plat_ipc_qmi_init_setup_req_handler: MAC: 0 HW_TRC: 0 CAL: 0
+[   16.575025] UBIFS (ubi1:0): recovery completed
+[   16.579029] UBIFS (ubi1:0): UBIFS: mounted UBI device 1, volume 0, name "aei_cfg"
+[   16.584266] UBIFS (ubi1:0): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[   16.596652] UBIFS (ubi1:0): FS size: 9396224 bytes (8 MiB, 74 LEBs), journal size 1015809 bytes (0 MiB, 6 LEBs)
+[   16.600674] UBIFS (ubi1:0): reserved for root: 443806 bytes (433 KiB)
+[   16.610515] UBIFS (ubi1:0): media format: w5/r0 (latest is w5/r0), UUID F1C18AEF-FC49-4FB0-904A-BEAD05A737D1, small LPT model
+[   16.630990] ubi2: attaching mtd24
+[   16.814985] urngd: v1.0.2 started.
+[   16.868795] ubi2: scanning is finished
+[   16.877708] ubi2: attached mtd24 (name "aei_app", size 44 MiB)
+[   16.877946] ubi2: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   16.882612] ubi2: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[   16.890235] ubi2: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   16.897029] ubi2: good PEBs: 352, bad PEBs: 0, corrupted PEBs: 0
+[   16.903141] ubi2: user volume: 1, internal volumes: 1, max. volumes count: 128
+[   16.910072] ubi2: max/mean erase counter: 12/8, WL threshold: 4096, image sequence number: 709659183
+[   16.916308] ubi2: available PEBs: 0, total reserved PEBs: 352, PEBs reserved for bad PEB handling: 40
+[   16.925805] ubi2: background thread "ubi_bgt2d" started, PID 254
+[   16.928295] ubi: mtd20 is already attached to ubi0
+[   16.973732] UBIFS (ubi2:0): Mounting in unauthenticated mode
+[   16.974296] UBIFS (ubi2:0): background thread "ubifs_bgt2_0" started, PID 275
+[   17.006198] UBIFS (ubi2:0): recovery needed
+[   17.098005] UBIFS (ubi2:0): recovery completed
+[   17.098270] UBIFS (ubi2:0): UBIFS: mounted UBI device 2, volume 0, name "aei_app"
+[   17.101521] UBIFS (ubi2:0): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[   17.109268] UBIFS (ubi2:0): FS size: 37838848 bytes (36 MiB, 298 LEBs), journal size 1904640 bytes (1 MiB, 15 LEBs)
+[   17.120117] UBIFS (ubi2:0): reserved for root: 1787221 bytes (1745 KiB)
+[   17.129301] UBIFS (ubi2:0): media format: w5/r0 (latest is w5/r0), UUID D13B9AA8-113E-4889-8989-997ADC12A835, small LPT model
+[   17.240786] ubi: mtd22 is already attached to ubi1
+[   17.241008] ubi: mtd20 is already attached to ubi0
+[   17.997695] ubi: mtd24 is already attached to ubi2
+[   19.820457] kmodloader: loading kernel modules from /etc/modules.d/*
+[   19.863515] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   20.260355] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   20.260779] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[   20.265951] platform regulatory.0: Falling back to sysfs fallback for: regulatory.db
+[   20.279052] NET: Registered protocol family 15
+[   20.285424] Initializing XFRM netlink socket
+[   20.310442] ssdk_switch_device_num_init[1375]:INFO:ess-switch dts node number: 1
+[   20.310673] ssdk_dt_get_switch_node[1164]:INFO:ess-switch DT exist!
+[   20.317129] ssdk_dt_parse_access_mode[1039]:INFO:switch_access_mode: local bus
+[   20.322979] ssdk_dt_parse_access_mode[1052]:INFO:switchreg_base_addr: 0x39c00000
+[   20.330397] ssdk_dt_parse_access_mode[1053]:INFO:switchreg_size: 0x200000
+[   20.338026] ssdk_dt_parse_mac_mode[328]:INFO:mac mode = 0xc
+[   20.344506] ssdk_dt_parse_mac_mode[334]:INFO:mac mode1 doesn't exit!
+[   20.350006] ssdk_dt_parse_mac_mode[343]:INFO:mac mode2 doesn't exit!
+[   20.356572] of_get_named_gpiod_flags: can't parse 'phy-reset-gpio' property of node '/soc/mdio@88000[0]'
+[   20.356609] of_get_named_gpiod_flags: parsed 'phy-reset-gpio' property of node '/soc/mdio@90000[0]' - status (0)
+[   20.356615] ssdk_dt_parse_phy_info[787]:INFO:port2's phy-reset-gpio is GPIO500
+[   20.362904] ssdk_dt_parse_port_bmp[940]:INFO:port_bmp doesn't exist!
+[   20.369927] ssdk_dt_parse_uniphy[365]:INFO:ess-uniphy DT exist!
+[   20.376450] ssdk_dt_parse_led[1137]:INFO:current dts led_source_num is 1
+[   20.382149] ssdk_plat_init[1698]:INFO:ssdk_plat_init start
+[   20.501609] cfg80211: failed to load regulatory.db
+[   22.986653] ssdk_mp_reset_init[818]:INFO:MP reset successfully!
+[   22.986908] ssdk_gcc_clock_init[1234]:INFO:SSDK gcc clock init successfully!
+[   22.992148] mpge_phy_api_ops_init[1092]:INFO:qca probe mpge phy driver succeeded!
+[   22.999392] regi_init[4065]:INFO:Initializing SCOMPHY!
+[   23.006448] _ssdk_mac_sw_sync_chip_check[1683]:ERROR:Unsupported chip version 0
+[   23.372626] ssdk_led_init[152]:INFO:ssdk_led_mode:3, ssdk_led_map:ffc, ssdk_led_src_id:0
+[   23.372934] ssdk_switch_register[2044]:INFO:Chip version 0xee
+[   23.379939] qca_link_polling_select[1498]:INFO:link-polling-required node does not exist
+[   23.385588] ssdk_switch_register[2078]:INFO:polling is selected
+[   23.393810] regi_init[4075]:INFO:Initializing SCOMPHY Done!!
+[   23.399419] regi_init[4106]:INFO:qca-ssdk module init succeeded!
+[   23.419758] tun: Universal TUN/TAP device driver, 1.6
+[   23.427231] (unnamed net_device) (uninitialized): nss_dp_gmac: Registering netdev eth%d(qcom-id:1) with GMAC, mac_base: 0xa0130000
+[   23.429171] (unnamed net_device) (uninitialized): nss_dp_gmac: Registering netdev eth%d(qcom-id:2) with GMAC, mac_base: 0xa0160000
+[   23.443227] **********************************************************
+[   23.450002] * NSS Data Plane driver
+[   23.456180] **********************************************************
+[   23.482700] l2tp_core: L2TP core driver, V2.0
+[   23.484551] l2tp_netlink: L2TP netlink interface
+[   23.557701] qca-nss 7a00000.nss: Direct firmware load for qca-nss0.bin failed with error -2
+[   23.557833] qca-nss 7a00000.nss: Falling back to sysfs fallback for: qca-nss0.bin
+[   24.253781] nss_driver - fw of size 785404  bytes copied to load addr: 40000000, nss_id : 0
+[   24.255407] Supported Frequencies - 
+[   24.255410] 850 MHz 
+[   24.261143] 1 GHz 
+[   24.264845] 
+[   24.268962] 7f36e8c0: set sdma 9cbbab00
+[   24.270974] node size 2 # items 4
+[   24.274079] memory: 40000000 536870912 (avl 468811776) items 4 active_cores 1
+[   24.277724] addr/size storage words 2 2 # words 4 in DTS, ddr size 1000000
+[   24.284647] 7f36e8c0: NSS core 0 DDR from 40000000 to 41000000
+[   24.291640] 7f36e8c0: meminfo init succeed
+[   24.298399] 7f36e8c0: All resources initialized and nss core0 has been brought out of reset
+[   24.315237] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[   24.318096] loading qca-wifi
+[   24.327614] node size 2 # items 4
+[   24.331556] memory: 40000000 536870912 (avl 468811776) items 4 active_cores 1
+[   24.334830] addr/size storage words 2 2 # words 4 in DTS, ddr size 1000000
+[   24.341999] 7f36e8c0: nss core 0 booted successfully
+[   24.358718] nat46: module (version 1182f30785e4274913f01a8c3d7e1b5437ae3819) loaded.
+[   24.372430] gre: GRE over IPv4 demultiplexor driver
+[   24.374953] ip_gre: GRE over IPv4 tunneling driver
+[   24.388264] ip6_gre: GRE over IPv6 tunneling driver
+[   24.395209] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)
+[   24.411508] rmnet_nss_init(): initializing rmnet_nss
+[   24.427891] PPP generic driver version 2.4.2
+[   24.429850] NET: Registered protocol family 24
+[   24.433600] PPTP driver version 0.8.5
+[   24.510312] openvswitch: Open vSwitch switching datapath
+[   24.521001] QCA Hy-Fi multicast installation successfully
+[   24.558426] nss_lag_init[352]:LAG Manager Installed
+[   24.654931] TRACK: P[0]	PMask[4]
+[   24.655059] TRACK: P[1]	PMask[4]
+[   24.657618] TRACK: P[2]	PMask[4]
+[   24.677643] TRACK: P[3]	PMask[4]
+[   24.677844] TRACK: P[4]	PMask[4]
+[   24.680188] TRACK: P[5]	PMask[4]
+[   24.683379] TRACK: P[6]	PMask[4]
+[   24.769765] QCA multicast snooping installed successfully
+[   24.774719] <NSS-CRYPTO>:module loaded Build_ID - 09/20/24, 09:05:34 SoC=ipq50xx
+[   24.782635] cannot find nss-macsec0 node
+[   24.783057] cannot find nss-macsec1 node
+[   24.785966] cannot find nss-macsec2 node
+[   24.790185] cannot find nss-macsec3 node
+[   24.793764] nss_macsec init success
+[   24.837301] Mirror/redirect action on
+[   24.852327] u32 classifier
+[   24.852457]     input device check on
+[   24.854180]     Actions configured
+[   24.873331] GACT probability on
+[   24.881103] Simple TC action Loaded
+[   24.910704] anfe init success
+[   24.913542] pause internet init success
+[   24.946199] SCSI subsystem initialized
+[   24.997013] libata version 3.00 loaded.
+[   25.057627] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[   25.254005] nf_conntrack_rtsp v0.7 loading
+[   25.301576] nf_nat_rtsp v0.7 loading
+[   25.364683] PPP MPPE Compression module registered
+[   25.373921] wireguard: WireGuard 1.0.20220627 loaded. See www.wireguard.com for information.
+[   25.374155] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[   25.470936] xt_time: kernel timezone is -0000
+[   25.483874] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   30.782154] configuring additional NSS pbufs
+[   30.804164] additional pbufs of size 3100672 got added to NSS
+[   32.595309] wlan: [2005:I:RPTR] qca_multi_link_init_module: 
+[   32.595309] ******QCA Repeater Initialization Done***********
+[   32.595309] 
+[   32.595521] speedtest_kboject_init[365]
+[   32.607456] wlan: [2005:I:ANY] qdf_ini_parse: INI values read: 85
+[   32.607587] wlan: [2005:I:ANY] qdf_ini_parse: INI file parse successful
+[   32.621768] wlan: [2005:I:ANY] qdf_ini_parse: INI values read: 58
+[   32.621978] wlan: [2005:I:ANY] qdf_ini_parse: INI file parse successful
+[   34.268491] smart_antenna: module license 'Proprietary' taints kernel.
+[   34.268500] Disabling lock debugging due to kernel taint
+[   34.506306] wlan: [2505:I:ANY] =======ol_if_register_wifi3_0==========
+[   34.506306] 
+[   34.506634] wlan: [2505:I:ANY] osif_nss_register_module: NSS wifi ops registered for target_type:1 with soc_ops:d4e023d3
+[   34.513422] remoteproc remoteproc1: powering up 4ab000.remoteproc_pd1
+[   34.524041] remoteproc remoteproc1: Booting fw image IPQ5018/q6_fw.mdt, size 1500
+[   34.524133] wlan: [2505:I:ANY] ol_ath_wifi_ssr: SSR event 2 bus_type 1
+[   34.524338] remoteproc remoteproc0: powering up cd00000.remoteproc
+[   34.524352] remoteproc remoteproc0: Booting fw image IPQ5018/q6_fw.mdt, size 1500
+[   36.466999] Subsystem error monitoring/handling services are up
+[   36.511728] diag: In diag_send_feature_mask_update, control channel is not open, p: 2, 8e6686bc
+[   36.515757] diag: In diag_send_peripheral_buffering_mode, buffering flag not set for 2
+[   36.586562] remoteproc remoteproc0: remote processor cd00000.remoteproc is now up
+[   36.599239] Subsystem error monitoring/handling services are up
+[   36.604890] cnss[2]: INFO: QMI WLFW service connected, state: 0x10001
+[   36.628130] cnss[2]: INFO: FW INI CFG file IPQ5018/fw_ini_cfg.bin is present
+[   36.628407] cnss[2]: INFO: device_id : 65532 mem mode : [1]
+[   36.634450] cnss[2]: INFO: platform name: Qualcomm Technologies, Inc. IPQ5018/AP-MP03.3-C3
+[   36.637650] cnss[2]: INFO: FW File 0 download
+[   36.651543] cnss[2]: ERR: WARNING: More memory is reserved. Reserved size 0xd00000, Requested size 0xc00000.
+[   36.659322] cnss[2]: INFO: Target capability: chip_id: 0x0, chip_family: 0x4, board_id: 0xff, soc_id: 0xffffffff, fw_version: 0x2809ffff, fw_build_timestamp: 2024-01-19 10:21, otp_version: 0x0 eeprom_caldata_read_timeout 0s bdf_dnld_method 1 regdb_mandatory 0 rxgainlut_support 0
+[   36.665219] cnss[2]: INFO: Failed to load RegDB IPQ5018/regdb.bin
+[   36.688000] cnss[2]: INFO: Skipping regdb download for QCA5018 since it is not mandatory as indicated by the target caps
+[   36.694345] cnss[2]: INFO: Downloading BDF: IPQ5018/bdwlan.b23, size: 131072
+[   36.716616] wlan: [2505:I:ANY] ol_ath_wifi_ssr: SSR event 3 bus_type 1
+[   36.716878] wlan: [2505:I:ANY] ol_ath_wifi_ssr: Waiting for probe lock
+[   36.722467] wlan: [2505:I:ANY] ol_ath_wifi_ssr: Starting Driver Probe
+[   36.730394] cnss[2]: INFO: Waiting for FW ready. Device: 0xfffc, FW ready timeout: 60 seconds
+[   36.782290] cnss[2]: INFO: Downloading BDF: IPQ5018/caldata.bin, size: 131072
+[   36.966647] cnss[2]: INFO: FW ready received for device 0xfffc
+[   36.967292] wlan: [2505:I:ANY] pld_ahb_wlan_enable: cnss_mode: Mission mode 
+[   36.976317] cnss[2]: INFO: Sending mode message, mode: MISSION(0), state: 0x10007
+[   36.985970] wlan: [2505:I:ANY] qca_napi_create: napi instance 0 created on pipe 4
+[   36.987421] wlan: [2505:I:ANY] __ol_ath_attach: Allocated soc 4a712225
+[   36.994021] wlan: [2505:D:dfs] WLAN_DEBUG_DFS1 : dfs_psoc_obj_create_notification: DFS obj attach to psoc successfully
+[   37.001511] wlan: [2505:I:ANY] qdf_ini_parse: INI values read: 0
+[   37.011007] wlan: [2505:I:ANY] qdf_ini_parse: INI file parse fail: invalid file format
+[   37.018016] wlan: [2505:E:CONFIG] cfg_ini_parse_to_store: Failed to parse *.ini file @ QCA5018.ini; status:4
+[   37.045947] wlan: [2505:E:CONFIG] cfg_uint_item_handler: num_monitor_vaps=1 - Out of range [0, 0]; Using 0
+[   37.047837] wlan: [2505:I:ANY] qdf_ini_parse: INI values read: 73
+[   37.054708] wlan: [2505:I:ANY] qdf_ini_parse: INI file parse successful
+[   37.063217] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 4 from section 512M
+[   37.069257] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 4 from section DP_MON_2CHAIN
+[   37.079185] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 4 from section 512M-P
+[   37.089226] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 1 from section DP_MON_512M_RING
+[   37.097770] wlan: [2505:I:ANY] wlan_twt_cfg_init: ME-DBG
+[   37.109162] wlan: [2505:I:ANY] __ol_ath_attach: dev name soc0
+[   37.113831] wlan: [2505:I:ANY] osif_nss_wifi_soc_setup: nss-wifili:#1 register wifili function for soc 29
+[   37.120230] wlan: [2505:I:ANY] osif_nss_wifi_soc_setup: nss register id -1 nss config 7 Target Type 1d 
+[   37.129797] wlan: [2505:I:ANY] ol_ath_soc_attach: WMI attached. wmi_handle 40339cb3 
+[   37.143383] wlan: [2505:I:TIF] ol_ath_ema_init_ctx: Limit max_mgmt_frm_sz to 1.5K for low mem platforms
+[   37.146039] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: rnr_field_size_limit_override:2
+[   37.155509] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: rnr_field_size_limit_override & RNR_SIZE_LIMIT_OVERRIDE_MASK:>2
+[   37.163317] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: mbss_ie_enable :0x0 
+[   37.174112] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: max_pp: 1
+[   37.180858] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.187225] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.197457] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.207611] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.217839] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.228149] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.238306] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.248568] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.258742] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.269473] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.279370] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.289510] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.299797] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.310010] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.320316] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.330486] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   37.340719] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_config_low: 0x77777777
+[   37.350903] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_config_high: 0x77777777
+[   37.360490] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size_limit: 350
+[   37.371103] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_optional_ie_config: optional_ie_size_limit: 0x12
+[   37.379654] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx:  max_pp:1  max_ngroups:1 
+[   37.389061] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_non_tx_sz       :456
+[   37.397949] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_non_tx_sz_limit :456
+[   37.404451] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_pp              :1
+[   37.411986] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_ngroup:               8
+[   37.420418] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: grp_sz:                   2
+[   37.428723] wlan: [2505:I:MBSSIE] ol_ath_soc_attach: rnr_6ghz_adv_override:0
+[   37.437473] wlan: [2505:I:ANY] htc_wmi_init: HTC Pipe Ready Timeout 6000ms
+[   37.444528] wlan: [2505:I:ANY] htc_wmi_init: HT Create . 4a87fbe4
+[   37.451343] wlan: [2505:I:ANY] htc_wmi_init: Skipping BMI Done
+[   37.457586] wlan: [2505:I:ANY] htc_wmi_init: host_enable 0
+[   37.476121] wlan: [2505:I:ANY] ol_target_init_complete: CDP soc attach success
+[   37.476362] wlan: [2505:I:ANY] ol_target_init_complete: Soc attach success NSS config 0 
+[   37.483741] wlan: [2505:I:ANY] htc_set_async_ep: htc_set_async_ep: htc_handle 4a87fbe4, ep 2, value 1
+[   37.493310] wlan: [924:I:TIF] HE_CAP Info = 9a08010d
+[   37.500032] wlan: [924:I:TIF] Num HW modes = 1
+[   37.506767] wlan: [924:I:TIF] Num PHY = 1
+[   37.509116] wlan: [924:I:TIF] FW Build Version (Ext.) = 0
+[   37.513090] wlan: [924:I:TIF] HDL Version: MajorVersion.MinorVersion = 0.0
+[   37.518683] wlan: [924:I:TIF] 11BE suport 0 
+[   37.527922] wlan: [924:I:TIF] Preferred HW Mode = 0 Num Radios = 1
+[   37.529895] wlan: [924:W:TIF] add_11ax_mode_flags: 11AX wireless modes are not populated by the target in reg capabilities, adding 11AX wireless modes
+[   37.535765] wlan: [924:I:TIF] init_deinit_add_11ax_modes: hw_mode_id = 0 phy_id = 0 wireless modes = 0
+[   37.551636] wlan: [924:I:ANY] BDF version: 1 CAL version: 1 Status: 0
+[   37.561328] wlan: [924:I:TIF] init_deinit_alloc_pdevs: CDP PDEV ATTACH success
+[   37.565447] wlan: [924:I:ANY] qdf_ini_section_parse: INI values parse successful read: 3 from section 2G-512M-P
+[   37.574649] wlan: [924:I:ANY] qdf_ini_section_parse: INI values parse successful read: 0 from section SINGLE_PHY_2G
+[   37.582376] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   37.594579] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   37.600062] wlan: [924:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   37.609722] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   37.615096] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   37.622598] wlan: [924:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   37.632590] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   37.637936] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   37.647148] wlan: [924:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   37.653121] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   37.660514] wlan: [924:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   37.669899] wlan: [924:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   37.675773] wlan: [924:I:ANY] init_deinit_update_pdev_tgt_info: pdev id:0 wmi_handle:40339cb3
+[   37.686953] wlan: [924:I:ANY] init_deinit_update_pdev_tgt_info: Pdev = 0 Number of peers = 137 vdevs = 9
+[   37.692488] wlan: [924:I:TIF] init_deinit_update_pdev_tgt_info: CDP PDEV INIT success
+[   37.807720] wlan: [924:I:ANY] copy_fw_abi_version_tlv: copy_fw_abi_version_tlv: INIT_CMD version: 1, 0, 0x5f414351, 0x4c4d, 0x0, 0x0
+[   38.058725] wlan: [924:I:ANY] ready_extract_init_status_tlv: ready_extract_init_status_tlv:0
+[   38.059141] wlan: [2505:I:ANY] ol_ath_connect_htc: WMI is ready
+[   38.087286] wlan: [2505:I:ANY] ath_get_radio_index: Error: Could not match the device name : wifi%d
+[   38.087567] wlan: [2505:E:NSS] [nss-wifili]: pdev:c197c681 radio_ifnum:28 scheme_id:1 radio_priority:0 
+[   38.101787] wlan: [2505:E:TIF] target_if_lro_hash_config: pdev with id 0 is NULL
+[   38.108594] wlan: [2505:I:ANY] ol_ath_soc_attach: connect HTC
+[   38.113371] wlan: [2505:I:ANY] ol_ath_soc_attach: bypasswmi : 0
+[   38.118457] wlan: [2505:I:MSCS] qca_mscs_module_init: 
+[   38.118457] ****QCA MSCS Initialization Done**** SoC 4a712225
+[   38.123837] wlan: [2505:I:ANY] ol_ath_soc_attach: UMAC attach
+[   38.135599] wlan: [2505:I:ANY] __ol_ath_attach: pdev_netdev name wifi0
+[   38.140943] wlan: [2505:I:ANY] __ol_ath_attach: Skip txrx_pdev_attach_target
+[   38.149127] wlan: [2505:I:ANY] __ol_ath_attach: BURSTING enabled by default
+[   38.154555] wlan: [2505:I:ANY] ol_ath_pdev_attach: interface_id 0
+[   38.161208] wlan: [2505:I:TIF] ol_ath_pdev_regdmn_init:  phy id = 0 Modes supported
+[   38.167240] wlan: [2505:I:TIF] ol_ath_pdev_regdmn_init:  11b = 1 11g = 1 11a = 0 11n = 1 11ac = 1 11ax = 1 11be = 0
+[   38.174618] wlan: [2505:I:TIF] ol_ath_pdev_regdmn_init:  Reg cap - phy_id = 0 supp_bnd = 1, modes = 680680c, lo_2g = 2312, hi_2g = 2732 lo_g5 = 0, hi_5g = 0
+[   38.185213] wlan: [2505:I:ANY] ol_ath_update_wireless_modes: wireless_modes = 680680c before update
+[   38.199445] wlan: [2505:I:ANY] ol_ath_update_wireless_modes: Wireless_modes = 680680c after update
+[   38.208123] wlan: [2505:I:ANY] ol_ath_update_ext_he_caps: 11ax 2G supported case
+[   38.217186] wlan: [2505:I:ANY] ol_ath_update_ext_eht_caps: 11BE not supported 
+[   38.225474] wlan: [2505:I:MBSSIE] ieee80211_mbss_attach: :>
+[   38.231721] wlan: [2505:I:MBSSIE] ieee80211_mbss_attach: :<ret:0
+[   38.237103] wlan: [2505:I:ANY] ol_resmgr_create: OL Resmgr Init-ed
+[   38.244124] wlan: [2505:I:ANY] acfg_attach: acfg_attach: 3532: Netlink socket created:56100ff6
+[   38.249403] wlan: [2505:I:ANY] ol_ath_stats_attach: periodic_chan_stats: 1
+[   38.259141] wlan: [2505:I:ANY] wlan_scan_update_channel_list: num_chan: 11
+[   38.265097] of_get_named_gpiod_flags: parsed 'led-gpio' property of node '/soc/wifi@c000000[0]' - status (0)
+[   38.265143] wlan: [0:I:ANY] ol_ath_pdev_attach: Set global_ic[1], ptr:291bf116
+[   38.271643] wlan: [0:I:ANY] dp_lag_soc_enable: pdev(7930e4f3) Enabling DBDC Repeater 0  soc_lag d88cbf27
+[   38.278832] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   38.288646] wlan: [0:I:ANY] dp_lag_pdev_set_primary_radio: pdev(7930e4f3) is_primary 0 
+[   38.301689] wlan: [2505:I:ANY] ol_ath_ucfg_set_rx_pkt_protocol_tagging: Set RX packet type TAG, opcode : 0, pkt_type : 18, metadata : 0xca0,pdev_id = 0, REO dest ring = 5
+[   38.301689] 
+[   38.304917] wlan: [2505:I:ANY] ol_ath_pri20_cfg_blockchanlist_parse: cfg block channel list is empty
+[   38.321078] wlan: [2505:I:ANY] ol_ath_configure_cong_ctrl_max_msdus: pdev_idx = 0 tx_desc_limit = 8192
+[   38.330856] wlan: [2505:I:ANY] __ol_ath_attach: needed_headroom reservation 60
+[   38.339591] wlan: [2505:I:ANY] ol_ath_enable_fraglist: Enabled Fraglist bit for the radio wifi0 features 41 
+[   38.346682] wlan: [2505:I:ANY] wlan_cfg80211_init: Number of 2G channels: 11 
+[   38.357450] wlan: [2505:I:ANY] ieee80211_cfg80211_radio_attach: ic: 0xc197c681, wdev: 0x1a48f8b7, wiphy: 0x8550f997, netdev: 0x93adc699 
+[   38.365599] wlan: [2505:I:Dynamic Mode Change] ol_ath_check_and_reconfig_hw_mode: Running with HW mode = 0
+[   38.378061] wlan: [2505:E:QLD] qld_register: Handle or address is NULL
+[   38.385552] wlan: [2505:I:ANY] wlan_pdev_operation: num_radios=1, wifi_radios[0].sc = c197c681_radio_type = 2
+[   38.393538] remoteproc remoteproc1: remote processor 4ab000.remoteproc_pd1 is now up
+[   38.393593] remoteproc remoteproc2: powering up cd00000.remoteproc:remoteproc_pd2
+[   38.393749] remoteproc remoteproc2: Booting fw image IPQ5018/q6_fw.mdt, size 1500
+[   38.393836] wlan: [2505:I:ANY] ol_ath_wifi_ssr: SSR event 2 bus_type 1
+[   38.407316] Subsystem error monitoring/handling services are up
+[   38.487408] cnss[41]: INFO: QMI WLFW service connected, state: 0x10001
+[   38.490325] cnss[41]: INFO: FW INI CFG file qcn6122/fw_ini_cfg.bin is present
+[   38.492950] cnss[41]: INFO: device_id : 65531 mem mode : [1]
+[   38.519488] cnss[41]: INFO: platform name: Qualcomm Technologies, Inc. IPQ5018/AP-MP03.3-C3
+[   38.521973] cnss[41]: INFO: FW File 0 download
+[   38.536669] wlan: [2505:I:ANY] ol_ath_wifi_ssr: SSR event 3 bus_type 1
+[   38.536915] wlan: [2505:I:ANY] ol_ath_wifi_ssr: Waiting for probe lock
+[   38.542505] wlan: [2505:I:ANY] ol_ath_wifi_ssr: Starting Driver Probe
+[   38.549273] cnss[41]: ERR: WARNING: More memory is reserved. Reserved size 0xd00000, Requested size 0xcc0000.
+[   38.564551] cnss[41]: INFO: Waiting for FW ready. Device: 0xfffb, FW ready timeout: 60 seconds
+[   38.573869] cnss[41]: INFO: Target capability: chip_id: 0x0, chip_family: 0x4, board_id: 0xff, soc_id: 0xffffffff, fw_version: 0x2809ffff, fw_build_timestamp: 2024-01-19 10:21, otp_version: 0x0 eeprom_caldata_read_timeout 0s bdf_dnld_method 1 regdb_mandatory 0 rxgainlut_support 0
+[   38.579095] cnss[41]: INFO: Device BAR Info pa: 0x81e00000, va: 0x6cf4724a, size: 0x200000
+[   38.606066] cnss[41]: INFO: Failed to load RegDB qcn6122/regdb.bin
+[   38.606763] cnss[41]: INFO: Skipping regdb download for QCN6122_1 since it is not mandatory as indicated by the target caps
+[   38.613536] cnss[41]: INFO: Downloading BDF: qcn6122/bdwlan.b60, size: 131072
+[   38.679108] ***** Fast boot VAP mode is enabled wifi0 *****
+[   38.704501] cnss[41]: INFO: Downloading BDF: qcn6122/caldata_1.bin, size: 131072
+[   38.806590] cnss[41]: INFO: FW ready received for device 0xfffb
+[   38.807031] wlan: [2505:I:ANY] pld_ahb_wlan_enable: cnss_mode: Mission mode 
+[   38.818044] cnss[41]: INFO: Sending mode message, mode: MISSION(0), state: 0x10007
+[   38.835370] wlan: [2505:I:ANY] qca_napi_create: napi instance 0 created on pipe 4
+[   38.836210] wlan: [2505:I:ANY] __ol_ath_attach: Allocated soc d8139ae0
+[   38.845816] wlan: [2505:D:dfs] WLAN_DEBUG_DFS1 : dfs_psoc_obj_create_notification: DFS obj attach to psoc successfully
+[   38.849300] wlan: [2505:I:ANY] qdf_ini_parse: INI values read: 0
+[   38.882522] wlan: [2505:I:ANY] qdf_ini_parse: INI file parse fail: invalid file format
+[   38.882759] wlan: [2505:E:CONFIG] cfg_ini_parse_to_store: Failed to parse *.ini file @ QCN6122.ini; status:4
+[   38.926043] wlan: [2505:E:CONFIG] cfg_uint_item_handler: num_vdevs=16 - Out of range [1, 9]; Using 9
+[   38.926227] wlan: [2505:E:CONFIG] cfg_uint_item_handler: num_peers=512 - Out of range [1, 128]; Using 128
+[   38.938249] wlan: [2505:E:CONFIG] cfg_uint_item_handler: num_monitor_vaps=1 - Out of range [0, 0]; Using 0
+[   38.945992] wlan: [2505:I:ANY] qdf_ini_parse: INI values read: 68
+[   38.968446] wlan: [2505:I:ANY] qdf_ini_parse: INI file parse successful
+[   38.973877] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 2 from section 512M
+[   38.975439] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 4 from section DP_MON_2CHAIN
+[   38.994627] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 4 from section 512M-P
+[   38.995134] wlan: [2505:I:ANY] qdf_ini_section_parse: INI values parse successful read: 0 from section DP_MON_512M_RING
+[   39.019202] wlan: [2505:I:ANY] wlan_twt_cfg_init: ME-DBG
+[   39.019401] wlan: [2505:I:ANY] __ol_ath_attach: dev name soc1
+[   39.032825] debugfs: Directory 'CONFIG' with parent 'qdf' already present!
+[   39.033110] wlan: [2505:E:QDF] CONFIG creation failed
+[   39.041383] wlan: [2505:I:ANY] osif_nss_wifi_soc_setup: nss-wifili:#1 register wifili function for soc 30
+[   39.043948] wlan: [2505:I:ANY] osif_nss_wifi_soc_setup: nss register id -1 nss config 7 Target Type 1e 
+[   39.072173] wlan: [2505:I:ANY] ol_ath_soc_attach: WMI attached. wmi_handle a3453fcf 
+[   39.081407] wlan: [2505:I:TIF] ol_ath_ema_init_ctx: Limit max_mgmt_frm_sz to 1.5K for low mem platforms
+[   39.081652] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: rnr_field_size_limit_override:2
+[   39.099881] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: rnr_field_size_limit_override & RNR_SIZE_LIMIT_OVERRIDE_MASK:>2
+[   39.100284] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: mbss_ie_enable :0x0 
+[   39.110431] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx: max_pp: 1
+[   39.118639] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.125574] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.136129] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.149334] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.153554] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.167228] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.176760] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.193265] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.194437] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.206856] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.215056] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.239847] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.240233] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.250874] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.262534] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.278930] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size: 512 ven_ie_size_nibble: 9
+[   39.280155] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_config_low: 0x77777777
+[   39.299205] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_config_high: 0x77777777
+[   39.299826] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_vendor_ie_config: vendor_ie_size_limit: 350
+[   39.311440] wlan: [2505:I:MBSSIE] ol_ath_ema_sanitize_optional_ie_config: optional_ie_size_limit: 0x12
+[   39.326724] wlan: [2505:I:MBSSIE] ol_ath_ema_init_ctx:  max_pp:1  max_ngroups:1 
+[   39.327417] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_non_tx_sz       :456
+[   39.343829] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_non_tx_sz_limit :456
+[   39.344138] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_pp              :1
+[   39.351640] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: max_ngroup:               8
+[   39.361292] wlan: [2505:I:MBSSIE] ol_ath_ema_determine_max_ngroup: grp_sz:                   2
+[   39.369598] wlan: [2505:I:MBSSIE] ol_ath_soc_attach: rnr_6ghz_adv_override:0
+[   39.381839] wlan: [2505:I:ANY] htc_wmi_init: HTC Pipe Ready Timeout 6000ms
+[   39.384102] wlan: [2505:I:ANY] htc_wmi_init: HT Create . 60981d28
+[   39.398295] wlan: [2505:I:ANY] htc_wmi_init: Skipping BMI Done
+[   39.398529] wlan: [2505:I:ANY] htc_wmi_init: host_enable 0
+[   39.423176] wlan: [2505:I:ANY] ol_target_init_complete: CDP soc attach success
+[   39.423452] wlan: [2505:I:ANY] ol_target_init_complete: Soc attach success NSS config 0 
+[   39.432483] wlan: [2505:I:ANY] htc_set_async_ep: htc_set_async_ep: htc_handle 60981d28, ep 2, value 1
+[   39.442189] wlan: [909:I:TIF] HE_CAP Info = 9a08010d
+[   39.447099] wlan: [909:I:TIF] Num HW modes = 1
+[   39.452298] wlan: [909:I:TIF] Num PHY = 1
+[   39.456915] wlan: [909:I:TIF] FW Build Version (Ext.) = 0
+[   39.463845] wlan: [909:I:TIF] HDL Version: MajorVersion.MinorVersion = 0.0
+[   39.465740] wlan: [909:I:TIF] 11BE suport 0 
+[   39.479419] wlan: [909:I:TIF] Preferred HW Mode = 0 Num Radios = 1
+[   39.479731] wlan: [909:W:TIF] add_11ax_mode_flags: 11AX wireless modes are not populated by the target in reg capabilities, adding 11AX wireless modes
+[   39.485577] wlan: [909:I:TIF] init_deinit_add_11ax_modes: hw_mode_id = 0 phy_id = 0 wireless modes = 0
+[   39.500649] wlan: [909:I:ANY] BDF version: 1 CAL version: 1 Status: 0
+[   39.510517] wlan: [909:I:TIF] init_deinit_alloc_pdevs: CDP PDEV ATTACH success
+[   39.514484] wlan: [909:I:ANY] qdf_ini_section_parse: INI values parse successful read: 3 from section 5G-512M-P
+[   39.523919] wlan: [909:I:ANY] qdf_ini_section_parse: INI values parse successful read: 0 from section SINGLE_PHY_5G
+[   39.533062] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   39.541855] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   39.550486] wlan: [909:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   39.561065] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   39.564447] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   39.573423] wlan: [909:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   39.579695] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   39.589354] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   39.594199] wlan: [909:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   39.607798] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: num_radios: 1
+[   39.609479] wlan: [909:I:TIF] init_deinit_get_total_num_ema_vaps: ema_max_vap_cnt: 0
+[   39.619187] wlan: [909:I:TIF] init_deinit_get_total_num_vdevs_for_soc: num_vdevs: 9
+[   39.625023] wlan: [909:I:ANY] init_deinit_update_pdev_tgt_info: pdev id:0 wmi_handle:a3453fcf
+[   39.635065] wlan: [909:I:ANY] init_deinit_update_pdev_tgt_info: Pdev = 0 Number of peers = 137 vdevs = 9
+[   39.645091] wlan: [909:I:TIF] init_deinit_update_pdev_tgt_info: CDP PDEV INIT success
+[   39.784777] wlan: [909:I:ANY] copy_fw_abi_version_tlv: copy_fw_abi_version_tlv: INIT_CMD version: 1, 0, 0x5f414351, 0x4c4d, 0x0, 0x0
+[   39.963635] wlan: [2518:I:ANY] ready_extract_init_status_tlv: ready_extract_init_status_tlv:0
+[   39.964131] wlan: [2505:I:ANY] ol_ath_connect_htc: WMI is ready
+[   39.987166] wlan: [2505:I:ANY] ath_get_radio_index: Error: Could not match the device name : wifi%d
+[   39.987421] wlan: [2505:E:NSS] [nss-wifili]: pdev:3ae8aee7 radio_ifnum:29 scheme_id:0 radio_priority:1 
+[   40.001106] wlan: [2505:E:TIF] target_if_lro_hash_config: pdev with id 0 is NULL
+[   40.011877] wlan: [2505:I:ANY] ol_ath_soc_attach: connect HTC
+[   40.012160] wlan: [2505:I:ANY] ol_ath_soc_attach: bypasswmi : 0
+[   40.024508] wlan: [2505:I:ANY] ol_ath_soc_attach: UMAC attach
+[   40.025271] wlan: [2505:I:ANY] __ol_ath_attach: pdev_netdev name wifi1
+[   40.030853] wlan: [2505:I:ANY] __ol_ath_attach: Skip txrx_pdev_attach_target
+[   40.043103] wlan: [2505:I:ANY] __ol_ath_attach: BURSTING enabled by default
+[   40.043963] wlan: [2505:I:ANY] ol_ath_pdev_attach: interface_id 1
+[   40.052331] wlan: [2505:I:TIF] ol_ath_pdev_regdmn_init:  phy id = 0 Modes supported
+[   40.056253] wlan: [2505:I:TIF] ol_ath_pdev_regdmn_init:  11b = 0 11g = 0 11a = 1 11n = 1 11ac = 1 11ax = 1 11be = 0
+[   40.065870] wlan: [2505:I:TIF] ol_ath_pdev_regdmn_init:  Reg cap - phy_id = 0 supp_bnd = 2, modes = f97f9001, lo_2g = 0, hi_2g = 0 lo_g5 = 5150, hi_5g = 5895
+[   40.078811] wlan: [2505:I:ANY] ol_ath_update_wireless_modes: wireless_modes = f97f9001 before update
+[   40.090278] wlan: [2505:I:ANY] ol_ath_update_wireless_modes: Wireless_modes = f97f9001 after update
+[   40.097992] wlan: [2505:I:ANY] ol_ath_update_ext_he_caps: 11ax 5G supported case
+[   40.108667] wlan: [2505:I:ANY] ol_ath_update_ext_eht_caps: 11BE not supported 
+[   40.114904] wlan: [2505:I:MBSSIE] ieee80211_mbss_attach: :>
+[   40.125326] wlan: [2505:I:MBSSIE] ieee80211_mbss_attach: :<ret:0
+[   40.126282] wlan: [2505:I:ANY] ol_resmgr_create: OL Resmgr Init-ed
+[   40.133396] wlan: [2505:I:ANY] acfg_attach: acfg_attach: Offload using existing sock 56100ff6
+[   40.138682] wlan: [2505:I:ANY] acfg_attach: Offload using existing sock 56100ff6
+[   40.138682] 
+[   40.147608] wlan: [2505:I:ANY] ol_ath_stats_attach: periodic_chan_stats: 1
+[   40.159952] wlan: [2505:I:ANY] wlan_scan_update_channel_list: num_chan: 25
+[   40.165184] wlan: [0:I:ANY] ol_ath_pdev_attach: Set global_ic[2], ptr:291bf116
+[   40.169671] wlan: [0:I:ANY] dp_lag_soc_enable: pdev(4b12d999) Enabling DBDC Repeater 0  soc_lag f07e1fc0
+[   40.177035] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   40.187918] wlan: [0:I:ANY] dp_lag_pdev_set_primary_radio: pdev(4b12d999) is_primary 0 
+[   40.205230] wlan: [2505:I:ANY] ol_ath_ucfg_set_rx_pkt_protocol_tagging: Set RX packet type TAG, opcode : 0, pkt_type : 18, metadata : 0xca0,pdev_id = 0, REO dest ring = 5
+[   40.205230] 
+[   40.206437] wlan: [2505:I:ANY] ol_ath_pri20_cfg_blockchanlist_parse: cfg block channel list is empty
+[   40.226741] wlan: [2505:I:ANY] ol_ath_configure_cong_ctrl_max_msdus: pdev_idx = 0 tx_desc_limit = 8192
+[   40.231038] wlan: [2505:I:ANY] __ol_ath_attach: needed_headroom reservation 60
+[   40.241306] wlan: [2505:I:ANY] ol_ath_enable_fraglist: Enabled Fraglist bit for the radio wifi1 features 41 
+[   40.249452] wlan: [2505:I:ANY] ieee80211_cfg80211_radio_attach: ic: 0x3ae8aee7, wdev: 0x0eb29bac, wiphy: 0x90c72c65, netdev: 0x09260b72 
+[   40.266356] wlan: [2505:I:Dynamic Mode Change] ol_ath_check_and_reconfig_hw_mode: Running with HW mode = 0
+[   40.272426] wlan: [2505:E:QLD] qld_register: Handle or address is NULL
+[   40.279013] wlan: [2505:I:ANY] wlan_pdev_operation: num_radios=2, wifi_radios[1].sc = 3ae8aee7_radio_type = 2
+[   40.285313] remoteproc remoteproc2: remote processor cd00000.remoteproc:remoteproc_pd2 is now up
+[   40.285428] wlan: [2505:I:ANY] init_ath_pci_3_0: ath_ol_pci_wifi3.0 :  (Atheros/multi-bss)
+[   40.459646] wlan: [3141:E:MONITOR] mon_soc_ol_attach: pdev object (id: 1) is NULL
+[   40.459892] wlan: [3141:E:MONITOR] mon_soc_ol_attach: pdev object (id: 2) is NULL
+[   40.495060] wlan: [3141:E:MONITOR] mon_soc_ol_attach: pdev object (id: 1) is NULL
+[   40.495229] wlan: [3141:E:MONITOR] mon_soc_ol_attach: pdev object (id: 2) is NULL
+[   40.799344] ***** Fast boot VAP mode is enabled wifi1 *****
+[   45.522536] wlan: [4215:I:ANY] wlan_scan_update_channel_list: num_chan: 11
+[   45.523066] wlan: [4215:I:ANY] ieee80211_setctry_tryretaining_curchan: [492] Skipping current channel retention during set_country operation
+[   45.532044] wlan: [4215:I:ANY] number of channels: 2G = 11 5G = 0, 6G = 0
+[   45.617560] wlan: [4237:I:ANY] wlan_scan_update_channel_list: num_chan: 25
+[   45.618756] wlan: [4237:E:ANY] dfs_init_chan_state_array: channel state array initialized
+[   45.626340] wlan: [4237:I:ANY] wlan_scan_update_channel_list: num_chan: 25
+[   45.635543] wlan: [4237:I:ANY] ieee80211_setctry_tryretaining_curchan: [492] Skipping current channel retention during set_country operation
+[   45.639121] wlan: [4237:I:ANY] number of channels: 2G = 0 5G = 25, 6G = 0
+[   45.679561] wlan: [4248:I:ANY] ol_ath_set_config_param: DCS: dcs enable value 0 return value 0
+[   45.818450] wlan: [4277:I:ANY] ol_ath_set_config_param: DCS: dcs enable value 0 return value 0
+[   46.217540] wlan: [4335:I:ANY] wlan_cfg80211_set_hwaddr: wlan_cfg80211_set_hwaddr :94:f7:17:4f:b3:38 ret: 0 
+[   46.283599] ECM init
+[   46.283689] ECM database jhash random seed: 0x29364848
+[   46.292752] wlan: [4342:I:ANY] ol_ath_set_config_param: set TXBF_SND_PERIOD: val 100 stat 0
+[   46.371545] wlan: [4360:I:ANY] wlan_cfg80211_set_hwaddr: wlan_cfg80211_set_hwaddr :94:f7:17:4f:b3:40 ret: 0 
+[   46.382703] wlan: [0:I:RPTR] multi_link set dbdc_enable flag as 0
+[   46.383140] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   46.388140] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   46.388221] wlan: [2001:E:ANY] send_filled_buffers_to_user: Send Failed -3 drop_count = 1
+[   46.396071] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   46.410280] ECM init complete
+[   46.436388] wlan: [4370:I:ANY] ol_ath_set_config_param: set TXBF_SND_PERIOD: val 100 stat 0
+[   46.453782] wlan: [0:I:RPTR] RPTR disconnect_timeout:10
+[   46.494710] wlan: [0:I:RPTR] RPTR reconfiguration_timeout:60
+[   46.508511] ECM OVS Test INIT
+[   46.532825] wlan: [0:I:RPTR] RPTR Same ssid disable:1
+[   46.608631] wlan: [0:I:RPTR] multi_link set dbdc_enable flag as 0
+[   46.609013] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   46.613871] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   46.622154] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   46.683863] wlan: [0:I:RPTR] RPTR disconnect_timeout:10
+[   46.761819] wlan: [0:I:RPTR] RPTR reconfiguration_timeout:60
+[   46.797838] wlan: [0:I:RPTR] RPTR Same ssid disable:1
+[   47.749356] wlan: [4628:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath0 : clone params: 0x00000000 
+[   47.749700] wlan: [4628:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[   47.784061] wlan: [4628:I:ANY] osifp_create_wlan_vap: No cloning
+[   47.784206] wlan: [4628:I:ANY] osifp_create_wlan_vap: VDEV Create 94:f7:17:4f:b3:39
+[   47.800475] wlan: [4628:I:ANY] wlan_vap_create: devhandle=0xc197c681, opmode=IEEE80211_M_HOSTAP, flags=0x0
+[   47.800475] 
+[   47.802839] wlan: [4628:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+[   47.814596] wlan: [4628:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:0|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[   47.817988] wlan: [4628:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x33
+[   47.838969] wlan: [4628:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+[   47.841257] wlan: [4628:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:0|su_bfer:0|mu_bfee:0|mu_bfer:0|dl_ofdma:1|ul_ofdma:0|ulmumimo:0|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[   47.857390] wlan: [4628:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0x90
+[   47.874998] wlan: [4628:I:ANY] MBO Initialized
+[   47.880267] wlan: [4628:I:ANY] OCE Initialized
+[   47.882480] wlan: [4628:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 30 nss_id -1 
+[   47.889414] wlan: [4628:I:ANY] osif_nss_ol_vap_create: NSS radio_if 28
+[   47.899646] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+[   47.902502] wlan: [4628:I:ANY] osif_nss_ol_vap_create: vap create 2275b25d : if_num 30 
+[   47.912123] wlan: [4628:I:ANY] ol_ath_set_pn_mgmt_rxfilter: PN RxFilter set to 0
+[   47.921179] wlan: [4628:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[   47.946709] wlan: [4628:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+[   47.946990] wlan: [4628:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+[   47.954064] wlan: [4628:I:RPTR] RPTR vdev flags:0 pdev flags:0 vdev_id:0 pdev_id:0
+[   47.964851] wlan: [4628:I:ANY] VAP device ath0 created osifp: (2275b25d) os_if: (dc32ef0f)
+[   47.969716] wlan: [4662:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath1 : clone params: 0x00000000 
+[   47.981022] wlan: [4662:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[   47.998995] wlan: [4662:I:ANY] osifp_create_wlan_vap: No cloning
+[   47.999230] wlan: [4662:I:ANY] osifp_create_wlan_vap: VDEV Create 94:f7:17:4f:b3:41
+[   48.013952] wlan: [4662:I:ANY] wlan_vap_create: devhandle=0x3ae8aee7, opmode=IEEE80211_M_HOSTAP, flags=0x0
+[   48.013952] 
+[   48.024454] wlan: [4662:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+[   48.024820] wlan: [4662:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:1|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[   48.039911] wlan: [4662:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x73
+[   48.058942] wlan: [4662:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+[   48.059364] wlan: [4662:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:0|su_bfer:0|mu_bfee:0|mu_bfer:0|dl_ofdma:1|ul_ofdma:0|ulmumimo:0|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[   48.078516] wlan: [4662:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0x90
+[   48.095613] wlan: [4662:I:ANY] MBO Initialized
+[   48.096257] wlan: [4662:I:ANY] OCE Initialized
+[   48.105126] wlan: [4662:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 31 nss_id -1 
+[   48.105394] wlan: [4662:I:ANY] osif_nss_ol_vap_create: NSS radio_if 29
+[   48.117751] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+[   48.120516] wlan: [4662:I:ANY] osif_nss_ol_vap_create: vap create 558948d8 : if_num 31 
+[   48.133326] wlan: [4662:I:ANY] ol_ath_set_pn_mgmt_rxfilter: PN RxFilter set to 0
+[   48.136413] wlan: [4662:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[   48.188817] wlan: [4662:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+[   48.189013] wlan: [4662:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+[   48.196142] wlan: [4662:I:RPTR] RPTR vdev flags:0 pdev flags:0 vdev_id:0 pdev_id:0
+[   48.223954] wlan: [4662:I:ANY] VAP device ath1 created osifp: (558948d8) os_if: (24b70b20)
+[   49.026954] br-lan: using kernel STP
+[   49.028742] wlan: [4852:E:ANY] ieee80211_ucfg_setparam_util: Value beyond acceptable range of 1 and 128
+[   49.038438] br-lan: port 1(eth1.5) entered blocking state
+[   49.038455] br-lan: port 1(eth1.5) entered disabled state
+[   49.039649] device eth1.5 entered promiscuous mode
+[   49.039658] device eth1 entered promiscuous mode
+[   49.057178] br-lan: port 1(eth1.5) entered blocking state
+[   49.057191] br-lan: port 1(eth1.5) entered listening state
+[   49.091202] br-lan: port 2(eth1.6) entered blocking state
+[   49.091216] br-lan: port 2(eth1.6) entered disabled state
+[   49.098854] device eth1.6 entered promiscuous mode
+[   49.099362] br-lan: port 2(eth1.6) entered blocking state
+[   49.099378] br-lan: port 2(eth1.6) entered listening state
+[   49.114807] br-lan: port 3(eth1.7) entered blocking state
+[   49.114822] br-lan: port 3(eth1.7) entered disabled state
+[   49.119527] device eth1.7 entered promiscuous mode
+[   49.120036] br-lan: port 3(eth1.7) entered blocking state
+[   49.120047] br-lan: port 3(eth1.7) entered listening state
+[   49.152823] nss-dp 39c00000.dp1 eth0: PHY Link up speed: 1000
+[   49.292626] wlan: [4890:E:ANY] ieee80211_ucfg_setparam_util: Value beyond acceptable range of 1 and 128
+[   49.615840] wlan: [4942:E:ANY] wlan_set_param: HE SU BFER is not allowed in current mode
+[   49.686390] wlan: [4958:I:ANY] wlan_set_param: HE SU BFER already set with this value =1 
+[   50.238809] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   50.473570] wlan: [5122:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath11 : clone params: 0x00000000 
+[   50.473878] wlan: [5122:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[   50.500273] wlan: [5122:I:ANY] osifp_create_wlan_vap: No cloning
+[   50.500524] wlan: [5122:I:ANY] osifp_create_wlan_vap: VDEV Create 94:f7:17:4f:b3:44
+[   50.505745] wlan: [5122:I:ANY] wlan_vap_create: devhandle=0x3ae8aee7, opmode=IEEE80211_M_HOSTAP, flags=0x0
+[   50.505745] 
+[   50.523227] wlan: [5122:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+[   50.537489] wlan: [5122:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:1|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[   50.537729] wlan: [5122:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x73
+[   50.592089] wlan: [5122:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+[   50.592385] wlan: [5122:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:0|su_bfer:0|mu_bfee:0|mu_bfer:0|dl_ofdma:1|ul_ofdma:0|ulmumimo:0|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[   50.644124] wlan: [5122:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0x90
+[   50.644454] wlan: [5122:I:ANY] MBO Initialized
+[   50.660516] wlan: [5122:I:ANY] OCE Initialized
+[   50.660769] wlan: [5122:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 32 nss_id -1 
+[   50.664063] wlan: [5122:I:ANY] osif_nss_ol_vap_create: NSS radio_if 29
+[   50.693734] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+[   50.694136] wlan: [5122:I:ANY] osif_nss_ol_vap_create: vap create e4621eac : if_num 32 
+[   50.726965] wlan: [5122:I:ANY] ol_ath_set_pn_mgmt_rxfilter: PN RxFilter set to 0
+[   50.727311] wlan: [5122:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[   50.766686] wlan: [5122:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+[   50.766954] wlan: [5122:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+[   50.789238] wlan: [5122:I:RPTR] RPTR vdev flags:0 pdev flags:0 vdev_id:1 pdev_id:0
+[   50.797062] wlan: [5122:I:ANY] VAP device ath11 created osifp: (e4621eac) os_if: (8ab245e5)
+[   50.799498] wlan: [5138:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath01 : clone params: 0x00005000 
+[   50.805854] wlan: [5138:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[   50.847934] wlan: [5138:I:ANY] osifp_create_wlan_vap: No cloning
+[   50.848095] wlan: [5138:I:ANY] osifp_create_wlan_vap: VDEV Create 94:f7:17:4f:b3:3d
+[   50.853261] wlan: [5138:I:ANY] wlan_vap_create: devhandle=0xc197c681, opmode=IEEE80211_M_HOSTAP, flags=0x5000
+[   50.853261] 
+[   50.870020] wlan: [5138:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+[   50.876855] wlan: [5138:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:0|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[   50.880920] wlan: [5138:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x33
+[   50.949592] wlan: [5138:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+[   50.949929] wlan: [5138:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:0|su_bfer:0|mu_bfee:0|mu_bfer:0|dl_ofdma:1|ul_ofdma:0|ulmumimo:0|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[   50.974799] wlan: [5138:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0x90
+[   50.988477] wlan: [5138:I:ANY] MBO Initialized
+[   50.988625] wlan: [5138:I:ANY] OCE Initialized
+[   50.999388] wlan: [5138:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 33 nss_id -1 
+[   50.999609] wlan: [5138:I:ANY] osif_nss_ol_vap_create: NSS radio_if 28
+[   51.023767] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+[   51.024168] wlan: [5138:I:ANY] osif_nss_ol_vap_create: vap create b5e06256 : if_num 33 
+[   51.049661] wlan: [5138:I:ANY] ol_ath_set_pn_mgmt_rxfilter: PN RxFilter set to 0
+[   51.049854] wlan: [5138:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[   51.056997] wlan: [0:I:ANY] osif_nss_wifili_vdev_get_mpsta_vdevid: Get MPSTA: vdev is NULL
+[   51.086716] wlan: [5138:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+[   51.086931] wlan: [5138:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+[   51.098830] wlan: [5138:I:RPTR] RPTR vdev flags:0 pdev flags:0 vdev_id:1 pdev_id:0
+[   51.111290] wlan: [5138:I:ANY] VAP device ath01 created osifp: (b5e06256) os_if: (52b9425f)
+[   51.116550] br-lan: port 2(eth1.6) entered learning state
+[   51.116668] br-lan: port 1(eth1.5) entered learning state
+[   51.196563] br-lan: port 3(eth1.7) entered learning state
+[   51.473587] wlan: [5284:I:ANY] DES SSID SET=ap_smart_monitor
+[   51.568269] wlan: [5303:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[   51.568269]  Channel is configured already!!
+[   52.275836] wlan: [5438:E:ANY] ieee80211_ucfg_setparam_util: Value beyond acceptable range of 1 and 128
+[   53.178479] wlan: [5626:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath12 : clone params: 0x00005000 
+[   53.178809] wlan: [5626:I:MBSSIE] osif_mbssid_sanity_check: mbssid_sanity_ok: YES
+[   53.196542] br-lan: port 1(eth1.5) entered forwarding state
+[   53.196555] br-lan: topology change detected, propagating
+[   53.196720] br-lan: port 2(eth1.6) entered forwarding state
+[   53.196729] br-lan: topology change detected, propagating
+[   53.213493] wlan: [5626:I:ANY] osifp_create_wlan_vap: No cloning
+[   53.213715] wlan: [5626:I:ANY] osifp_create_wlan_vap: VDEV Create 94:f7:17:4f:b3:46
+[   53.218899] wlan: [5626:I:ANY] wlan_vap_create: devhandle=0x3ae8aee7, opmode=IEEE80211_M_HOSTAP, flags=0x5000
+[   53.218899] 
+[   53.235352] wlan: [5626:I:ANY] ol_ath_vap_set_param: Setting SGI value: 1
+[   53.240243] wlan: [5626:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:1|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[   53.247144] wlan: [5626:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x73
+[   53.291356] br-lan: port 3(eth1.7) entered forwarding state
+[   53.291372] br-lan: topology change detected, propagating
+[   53.293034] wlan: [5626:I:ANY] ol_ath_vap_set_param: VDEV params: AC/VHT sounding mode:HE|SU/MU sounding mode:SU|Trig/Non-Trig sounding mode:Non-Trigged
+[   53.293394] wlan: [5626:I:ANY] ol_ath_vap_set_param: VDEV params:EHT su_bfee:0|su_bfer:0|mu_bfee:0|mu_bfer:0|dl_ofdma:1|ul_ofdma:0|ulmumimo:0|dl_muofdma_bfer:1|dl_muofdma_mumimo:0|ul_muofdma_mumimo:0
+[   53.346636] wlan: [5626:I:ANY] ol_ath_vap_set_param: eht_mu_bf_mode=0x90
+[   53.347020] wlan: [5626:I:ANY] MBO Initialized
+[   53.355179] wlan: [5626:I:ANY] OCE Initialized
+[   53.357197] wlan: [5626:I:ANY] osif_nss_ol_vap_create: NSS wifi offload VAP create IF 34 nss_id -1 
+[   53.361273] wlan: [5626:I:ANY] osif_nss_ol_vap_create: NSS radio_if 29
+[   53.422635] wlan: [0:I:ANY] osif_nss_vdev_cfg_callback: VDEV configuration success: 0
+[   53.424080] wlan: [5626:I:ANY] osif_nss_ol_vap_create: vap create 01f8c29d : if_num 34 
+[   53.447028] wlan: [5626:I:ANY] ol_ath_set_pn_mgmt_rxfilter: PN RxFilter set to 0
+[   53.447322] wlan: [5626:E:ANY] wlan_create_attach_vdev_rawsim_ctxt: simulation module not registerd
+[   53.486667] wlan: [5626:I:ANY] osif_create_vap_complete: TX Checksum:1|SG:1|TSO:1|LRO:0
+[   53.486811] wlan: [5626:I:ANY] WLAN-NSS: VAP NSS ops initialized 
+[   53.493885] wlan: [5626:I:RPTR] RPTR vdev flags:0 pdev flags:1 vdev_id:2 pdev_id:0
+[   53.531750] wlan: [5626:I:ANY] VAP device ath12 created osifp: (01f8c29d) os_if: (ec2e5da5)
+[   53.532081] IPv6: ADDRCONF(NETDEV_CHANGE): br-lan: link becomes ready
+[   53.914723] wlan: [5759:I:ANY] DES SSID SET=ap_smart_monitor
+[   53.977815] wlan: [5776:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[   53.977815]  Channel is configured already!!
+[   56.733437] hyfi_netlink_receive:190:hyfi: Not attached to bridge br-lan
+[   59.591519] wlan: [6969:D:dfs] WLAN_DEBUG_DFS_ALWAYS : dfs_control: ignore cac = 0x1
+[   59.769993] wlan: [7020:E:ANY] wlan_set_param: Vap diff mode is already set to 0
+[   59.769993] 
+[   59.844427] 8021q: adding VLAN 0 to HW filter on device ath0
+[   59.899628] wlan: [7046:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[   59.965386] wlan: [7051:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   59.965626] wlan: [7051:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[   60.054513] wlan: [7079:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.054662] wlan: [7079:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[   60.111607] wlan: [7099:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.111830] wlan: [7099:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[   60.192245] wlan: [7117:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.192399] wlan: [7117:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[   60.287212] wlan: [7134:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.287353] wlan: [7134:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[   60.425624] wlan: [7157:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.425849] wlan: [7157:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[   60.508286] wlan: [7190:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.508433] wlan: [7190:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[   60.576164] wlan: [7202:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.576812] wlan: [7202:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[   60.615583] wlan: [7214:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.615728] wlan: [7214:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[   60.628355] mc_attach: enabled snooping on br-lan.
+[   60.696879] wlan: [7227:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.697240] wlan: [7227:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[   60.743389] wlan: [7245:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.743529] wlan: [7245:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[   60.820334] wlan: [7258:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.820553] wlan: [7258:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[   60.915389] wlan: [7274:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.915608] wlan: [7274:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[   60.982172] wlan: [7282:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   60.982397] wlan: [7282:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[   61.044308] wlan: [7291:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.044565] wlan: [7291:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[   61.119275] wlan: [7313:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.119528] wlan: [7313:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[   61.173647] 8021q: adding VLAN 0 to HW filter on device ath1
+[   61.199950] wlan: [7335:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.200180] wlan: [7335:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[   61.235533] wlan: [7343:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[   61.253606] wlan: [7346:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.253793] wlan: [7346:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[   61.280597] wlan: [7352:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.280834] wlan: [7352:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[   61.295879] wlan: [7358:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.296204] wlan: [7358:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[   61.329088] wlan: [7365:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.329332] wlan: [7365:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[   61.364419] wlan: [7371:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.364664] wlan: [7371:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[   61.396394] wlan: [7380:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.412065] wlan: [7380:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[   61.429997] wlan: [7387:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.433626] wlan: [7387:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[   61.467512] wlan: [7396:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.467692] wlan: [7396:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[   61.478719] wlan: [7401:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.488243] wlan: [7401:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[   61.533975] wlan: [7416:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.534136] wlan: [7416:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[   61.583689] wlan: [7422:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.584047] wlan: [7422:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[   61.658472] wlan: [7434:E:MBSSIE] ieee80211_ucfg_set_txvap: VAP1 is either smart monitor 1 or special vap 1, not configuring
+[   61.660003] 8021q: adding VLAN 0 to HW filter on device ath01
+[   61.700786] wlan: [7441:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.700992] wlan: [7441:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[   61.726034] wlan: [7450:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[   61.768908] wlan: [7459:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.769112] wlan: [7459:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[   61.788370] wlan: [7462:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.788662] wlan: [7462:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[   61.859292] wlan: [7477:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.859484] wlan: [7477:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[   61.878524] wlan: [7479:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.878743] wlan: [7479:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[   61.933708] wlan: [7492:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.933851] wlan: [7492:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[   61.974727] wlan: [7497:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   61.974957] wlan: [7497:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[   62.018639] wlan: [7501:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.018807] wlan: [7501:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[   62.091631] wlan: [7517:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.091849] wlan: [7517:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[   62.156457] wlan: [7531:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.156830] wlan: [7531:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[   62.209115] wlan: [7543:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.209345] wlan: [7543:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[   62.233593] wlan: [7544:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.241125] wlan: [7544:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[   62.266449] wlan: [7552:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.295487] wlan: [7552:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[   62.337079] wlan: [7562:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.337394] wlan: [7562:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[   62.368247] wlan: [7569:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.368485] wlan: [7569:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[   62.402929] wlan: [7578:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.403256] wlan: [7578:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[   62.423490] wlan: [7585:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.423680] wlan: [7585:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[   62.456289] wlan: [7597:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.456664] wlan: [7597:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[   62.497585] wlan: [7605:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.497731] wlan: [7605:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[   62.526267] wlan: [7613:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.536424] wlan: [7613:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[   62.554953] wlan: [7619:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.555131] wlan: [7619:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[   62.593749] wlan: [7625:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.594075] wlan: [7625:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[   62.628797] wlan: [7635:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.629078] wlan: [7635:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[   62.643269] wlan: [7640:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.644809] wlan: [7640:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[   62.687527] wlan: [7654:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.687715] wlan: [7654:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[   62.713258] wlan: [7655:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.714458] wlan: [7655:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[   62.755085] wlan: [7668:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.755276] wlan: [7668:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[   62.781071] wlan: [7672:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.781307] wlan: [7672:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[   62.814463] wlan: [7682:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.816900] wlan: [7682:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[   62.828961] wlan: [7680:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.830320] wlan: [7680:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[   62.880393] wlan: [7691:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.880614] wlan: [7691:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[   62.903271] wlan: [7694:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.903496] wlan: [7694:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[   62.958887] wlan: [7705:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   62.959125] wlan: [7705:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[   63.008143] wlan: [7715:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.010533] wlan: [7715:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[   63.028269] 8021q: adding VLAN 0 to HW filter on device ath11
+[   63.100633] wlan: [7734:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.100890] wlan: [7734:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[   63.127037] wlan: [7736:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[   63.174419] wlan: [7751:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.174564] wlan: [7751:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[   63.191590] wlan: [7754:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.191928] wlan: [7754:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[   63.232841] wlan: [7763:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.233229] wlan: [7763:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[   63.247706] wlan: [7766:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.248361] wlan: [7766:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[   63.285362] wlan: [7775:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.285638] wlan: [7775:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[   63.330354] wlan: [7786:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.330620] wlan: [7786:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[   63.340980] wlan: [7789:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.349462] wlan: [7789:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[   63.458746] wlan: [7814:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.458913] wlan: [7814:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[   63.544559] wlan: [7832:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.544803] wlan: [7832:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[   63.677929] wlan: [7856:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.678090] wlan: [7856:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[   63.814318] wlan: [7878:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.814605] wlan: [7878:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[   63.929463] wlan: [7896:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   63.929616] wlan: [7896:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[   64.024331] wlan: [7919:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.024626] wlan: [7919:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[   64.129943] wlan: [7935:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.130107] wlan: [7935:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[   64.252652] cnss: INFO: cnss_plat_ipc_qmi_send_config_param_req_handler: Param: 7 Instance ID: 0x2 Value: 0
+[   64.252926] cnss: INFO: cnss_config_param_update_cb: Instance ID: 0x2 Param 7 Value: 0
+[   64.271566] cnss[2]: INFO: Starting QDSS for QCA5018
+[   64.271581] cnss[2]: INFO: Sending QDSS config download message, state: 0x10007
+[   64.291517] wlan: [7960:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.291703] wlan: [7960:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[   64.293117] cnss[2]: INFO: No Custom QDSS config found, loading default file IPQ5018/qdss_trace_config.bin
+[   64.333647] cnss[2]: INFO: Sending QDSS Mode 1, option 0
+[   64.400397] wlan: [7979:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.404957] wlan: [7979:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[   64.476310] wlan: [7996:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.476457] wlan: [7996:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[   64.595965] wlan: [8009:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.596216] wlan: [8009:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[   64.738260] wlan: [8039:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.738510] wlan: [8039:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[   64.825676] wlan: [8047:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.825912] wlan: [8047:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[   64.918733] wlan: [8059:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   64.919077] wlan: [8059:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[   65.075987] wlan: [8086:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.076216] wlan: [8086:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[   65.193370] wlan: [8105:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.193624] wlan: [8105:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[   65.276211] wlan: [8113:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.288841] wlan: [8113:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[   65.341998] wlan: [8130:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.342226] wlan: [8130:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[   65.568056] wlan: [8169:E:MBSSIE] ieee80211_ucfg_set_txvap: VAP2 is either smart monitor 1 or special vap 1, not configuring
+[   65.584126] 8021q: adding VLAN 0 to HW filter on device ath12
+[   65.584142] wlan: [0:E:ANY] mlme_vdev_start_continue_cb: aei : changed phymode 29 to 29 on channel 5620
+[   65.584142] 
+[   65.584849] wlan: [0:W:ANY] ieee80211_set_ul_mumimo: Overriding UL MUMIMO configuration to 0 as per Target Capability for VDEV 2
+[   65.594438] wlan: [0:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:0|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[   65.605984] wlan: [0:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x33
+[   65.699981] wlan: [8185:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[   65.762547] wlan: [8201:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.763351] wlan: [8201:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[   65.824784] wlan: [8213:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.825012] wlan: [8213:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[   65.915932] wlan: [8223:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.916215] wlan: [8223:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[   65.989034] wlan: [8242:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   65.989172] wlan: [8242:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[   66.087070] wlan: [8257:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.087328] wlan: [8257:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[   66.188069] wlan: [8275:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.188237] wlan: [8275:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[   66.245750] wlan: [8293:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.246020] wlan: [8293:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[   66.331215] wlan: [8305:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.331452] wlan: [8305:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[   66.408800] wlan: [8313:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.409091] wlan: [8313:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[   66.482581] wlan: [8321:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.482723] wlan: [8321:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[   66.571348] wlan: [8330:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.571574] wlan: [8330:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[   66.643735] wlan: [8341:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.643882] wlan: [8341:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[   66.711621] wlan: [8356:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.711845] wlan: [8356:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[   66.730608] ***** Fast boot VAP is completed.. *****
+[   66.754981] wlan: [8364:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.755141] wlan: [8364:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[   66.808071] wlan: [8377:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.808303] wlan: [8377:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[   66.848762] wlan: [8390:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.853331] wlan: [8390:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[   66.917096] wlan: [8400:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.917321] wlan: [8400:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[   66.953079] wlan: [8415:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.953306] wlan: [8415:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[   66.992903] wlan: [8427:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   66.993174] wlan: [8427:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[   67.051940] wlan: [8437:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   67.052184] wlan: [8437:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[   67.099272] wlan: [8449:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   67.099414] wlan: [8449:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[   67.162892] wlan: [8460:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[   67.163156] wlan: [8460:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[   67.609331] qca-wifi loaded
+[   67.830693] sh (8510): drop_caches: 3
+[   72.673852] cnss: INFO: cnss_plat_ipc_qmi_send_config_param_req_handler: Param: 7 Instance ID: 0x2 Value: 0
+[   72.674124] cnss: INFO: cnss_config_param_update_cb: Instance ID: 0x2 Param 7 Value: 0
+[   72.696754] cnss[2]: INFO: Starting QDSS for QCA5018
+[   72.696761] cnss[2]: INFO: QDSS is already started: 0x30007
+[   75.620523] cnss: INFO: cnss_plat_ipc_qmi_send_config_param_req_handler: Param: 7 Instance ID: 0x2 Value: 0
+[   75.620792] cnss: INFO: cnss_config_param_update_cb: Instance ID: 0x2 Param 7 Value: 0
+[   75.645370] cnss[2]: INFO: Starting QDSS for QCA5018
+[   75.645379] cnss[2]: INFO: QDSS is already started: 0x30007
+[   78.900757] ***** Fast boot VAP is completed.. *****
+[   88.485994] wlan: [11890:I:ANY] wlan_scan_update_channel_list: num_chan: 11
+[   88.486791] wlan: [0:E:CMN_MLME] mlme_vdev_validate_basic_params_cb: (vdev-id:0)SSID is not configured
+[   88.491970] wlan: [0:E:CMN_MLME] mlme_vdev_state_init_event: failed to validate vdev init params to move to START state
+[   88.502396] wlan: [11890:I:ANY] number of channels: 2G = 11 5G = 0, 6G = 0
+[   88.556421] wlan: [11897:E:ANY] ol_ath_set_config_param: VAP(s) in running state Cannot change between burst/staggered beacon modes
+[   88.736458] wlan: [11929:I:ANY] wlan_cfg80211_set_hwaddr: wlan_cfg80211_set_hwaddr :94:f7:17:4f:b3:38 ret: -16 
+[   88.756843] wlan: [11932:I:ANY] ol_ath_set_config_param: set TXBF_SND_PERIOD: val 100 stat 0
+[   88.812347] wlan: [0:I:RPTR] multi_link set dbdc_enable flag as 0
+[   88.812560] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   88.818492] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   88.825741] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   88.852586] wlan: [0:I:RPTR] RPTR disconnect_timeout:10
+[   88.871971] wlan: [0:I:RPTR] RPTR reconfiguration_timeout:60
+[   88.890986] wlan: [0:I:RPTR] RPTR Same ssid disable:1
+[   89.313622] wlan: [12026:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath0 : clone params: 0x00000000 
+[   89.313857] wlan: [12026:E:ANY] osif_create_vap_netdev_alloc: ath0 net dev exists already
+[   89.324436] wlan: [12026:I:ANY] osif_create_vap:create netdev failed
+[   89.324436] 
+[   89.332887] wlan: [12026:I:ANY] wlan_cfg80211_add_virtual_intf: Failed to create VAP. osif_create_vap returned NULL!
+[   89.424291] wlan: [12045:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath01 : clone params: 0x00005000 
+[   89.424525] wlan: [12045:E:ANY] osif_create_vap_netdev_alloc: ath01 net dev exists already
+[   89.436750] wlan: [12045:I:ANY] osif_create_vap:create netdev failed
+[   89.436750] 
+[   89.443626] wlan: [12045:I:ANY] wlan_cfg80211_add_virtual_intf: Failed to create VAP. osif_create_vap returned NULL!
+[   98.093373] wlan: [13439:I:ANY] wlan_scan_update_channel_list: num_chan: 25
+[   98.095474] wlan: [13439:E:ANY] dfs_init_chan_state_array: channel state array initialized
+[   98.104050] wlan: [13439:I:ANY] wlan_scan_update_channel_list: num_chan: 25
+[   98.111466] wlan: [0:E:CMN_MLME] mlme_vdev_validate_basic_params_cb: (vdev-id:0)SSID is not configured
+[   98.114605] wlan: [0:E:CMN_MLME] mlme_vdev_state_init_event: failed to validate vdev init params to move to START state
+[   98.125604] wlan: [0:E:CMN_MLME] mlme_vdev_validate_basic_params_cb: (vdev-id:1)SSID is not configured
+[   98.134747] wlan: [0:E:CMN_MLME] mlme_vdev_state_init_event: failed to validate vdev init params to move to START state
+[   98.145634] wlan: [13439:I:ANY] number of channels: 2G = 0 5G = 25, 6G = 0
+[   98.160301] wlan: [0:E:ANY] mlme_vdev_start_continue_cb: aei : changed phymode 29 to 29 on channel 5620
+[   98.160301] 
+[   98.216709] wlan: [13465:E:ANY] ol_ath_set_config_param: VAP(s) in running state Cannot change between burst/staggered beacon modes
+[   98.409041] wlan: [13494:I:ANY] wlan_cfg80211_set_hwaddr: wlan_cfg80211_set_hwaddr :94:f7:17:4f:b3:40 ret: -16 
+[   98.432554] wlan: [13499:I:ANY] ol_ath_set_config_param: set TXBF_SND_PERIOD: val 100 stat 0
+[   98.495164] wlan: [0:I:RPTR] multi_link set dbdc_enable flag as 0
+[   98.495515] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   98.500409] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   98.508561] wlan: [0:E:NSS] [nss-wifili]: NSS Wifili DBDC Repeater enable message passed
+[   98.527712] wlan: [0:I:RPTR] RPTR disconnect_timeout:10
+[   98.547931] wlan: [0:I:RPTR] RPTR reconfiguration_timeout:60
+[   98.570420] wlan: [0:I:RPTR] RPTR Same ssid disable:1
+[   99.195665] wlan: [13632:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath1 : clone params: 0x00000000 
+[   99.196348] wlan: [13632:E:ANY] osif_create_vap_netdev_alloc: ath1 net dev exists already
+[   99.208866] wlan: [13632:I:ANY] osif_create_vap:create netdev failed
+[   99.208866] 
+[   99.215791] wlan: [13632:I:ANY] wlan_cfg80211_add_virtual_intf: Failed to create VAP. osif_create_vap returned NULL!
+[   99.309088] wlan: [13643:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath11 : clone params: 0x00000000 
+[   99.309326] wlan: [13643:E:ANY] osif_create_vap_netdev_alloc: ath11 net dev exists already
+[   99.321356] wlan: [13643:I:ANY] osif_create_vap:create netdev failed
+[   99.321356] 
+[   99.329602] wlan: [13643:I:ANY] wlan_cfg80211_add_virtual_intf: Failed to create VAP. osif_create_vap returned NULL!
+[   99.415042] wlan: [13656:I:ANY] wlan_cfg80211_add_virtual_intf: proprietary mode 6 for interface: ath12 : clone params: 0x00005000 
+[   99.415275] wlan: [13656:E:ANY] osif_create_vap_netdev_alloc: ath12 net dev exists already
+[   99.426196] wlan: [13656:I:ANY] osif_create_vap:create netdev failed
+[   99.426196] 
+[   99.434737] wlan: [13656:I:ANY] wlan_cfg80211_add_virtual_intf: Failed to create VAP. osif_create_vap returned NULL!
+[  102.288000] wlan: [14268:D:dfs] WLAN_DEBUG_DFS_ALWAYS : dfs_control: ignore cac = 0x1
+[  103.216142] wlan: [14332:E:ANY] wlan_set_param: Vap diff mode is already set to 0
+[  103.216142] 
+[  103.931870] br-lan: port 4(ath0) entered blocking state
+[  103.931880] br-lan: port 4(ath0) entered disabled state
+[  103.933004] device ath0 entered promiscuous mode
+[  103.933815] br-lan: port 4(ath0) entered blocking state
+[  103.933832] br-lan: port 4(ath0) entered listening state
+[  104.218676] wlan: [4873:I:ANY] DES SSID SET=nekodiumFPT
+[  104.218898] wlan: [4873:I:ANY] desired hw mode: 29
+[  104.223181] wlan: [4873:I:ANY] wlan_cfg80211_chan_to_phymode: band:0 width: 2 channel_cfreq: 2457 center_freq1: 2447 chandef.center_freq2: 0 flags: 400
+[  104.230238] wlan: [4873:I:ANY] HT Support:9b1808ec VHT Support:ca05fde2 HE Support:66dafb2e
+[  104.242758] wlan: [4873:I:ANY] Max supported wireless mode: 3
+[  104.250976] wlan: [4873:I:ANY] Phymode: 27 
+[  104.250976] 
+[  104.255645] wlan: [4873:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[  104.255645]  Channel is configured already!!
+[  104.263880] wlan: [4873:I:MBSSIE] wlan_cfg80211_start_ap: Set tx-vap ath0: vdev_id:0
+[  104.272857] wlan: [4873:E:MBSSIE] ieee80211_ucfg_set_txvap: MBSSID is not enabled
+[  104.939546] wlan: [14433:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[  104.966200] wlan: [14437:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  104.966343] wlan: [14437:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[  104.996903] wlan: [14440:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  104.997204] wlan: [14440:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[  105.027028] wlan: [14443:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.027174] wlan: [14443:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[  105.059540] wlan: [14446:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.059863] wlan: [14446:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[  105.089161] wlan: [14449:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.089384] wlan: [14449:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[  105.118957] wlan: [14452:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.119101] wlan: [14452:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[  105.150661] wlan: [14455:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.150883] wlan: [14455:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[  105.180432] wlan: [14458:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.180570] wlan: [14458:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[  105.211018] wlan: [14461:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.211317] wlan: [14461:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[  105.240901] wlan: [14464:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.241046] wlan: [14464:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[  105.271988] wlan: [14467:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.272283] wlan: [14467:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[  105.301603] wlan: [14470:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.301902] wlan: [14470:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[  105.332412] wlan: [14473:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.332658] wlan: [14473:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[  105.362459] wlan: [14476:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.362598] wlan: [14476:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[  105.393391] wlan: [14479:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.393618] wlan: [14479:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[  105.423263] wlan: [14482:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.423406] wlan: [14482:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[  105.453912] wlan: [14485:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.454247] wlan: [14485:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[  105.483518] wlan: [14488:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.483821] wlan: [14488:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[  105.514416] wlan: [14491:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.514641] wlan: [14491:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[  105.544068] wlan: [14494:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.544214] wlan: [14494:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[  105.574628] wlan: [14497:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.574861] wlan: [14497:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[  105.604341] wlan: [14500:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  105.604489] wlan: [14500:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[  105.996522] br-lan: port 4(ath0) entered learning state
+[  107.050091] wlan: [14592:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[  107.073455] wlan: [14595:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.073596] wlan: [14595:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[  107.112902] wlan: [14599:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.113309] wlan: [14599:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[  107.151216] wlan: [14603:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.151379] wlan: [14603:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[  107.195233] wlan: [14606:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.195478] wlan: [14606:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[  107.233848] wlan: [14609:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.234017] wlan: [14609:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[  107.277064] wlan: [14613:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.277307] wlan: [14613:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[  107.324937] wlan: [14616:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.325180] wlan: [14616:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[  107.364258] wlan: [14619:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.364508] wlan: [14619:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[  107.402020] wlan: [14622:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.402183] wlan: [14622:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[  107.444126] wlan: [14625:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.444362] wlan: [14625:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[  107.483985] wlan: [14628:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.484146] wlan: [14628:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[  107.525073] wlan: [14631:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.525311] wlan: [14631:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[  107.564234] wlan: [14634:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.564474] wlan: [14634:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[  107.613694] wlan: [14638:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.614041] wlan: [14638:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[  107.658444] wlan: [14641:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.658825] wlan: [14641:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[  107.687309] wlan: [14644:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.687539] wlan: [14644:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[  107.717069] wlan: [14647:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.717403] wlan: [14647:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[  107.745963] wlan: [14650:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.746185] wlan: [14650:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[  107.776995] wlan: [14653:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.777292] wlan: [14653:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[  107.806020] wlan: [14656:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.806241] wlan: [14656:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[  107.836694] wlan: [14659:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.836973] wlan: [14659:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[  107.865840] wlan: [14662:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  107.866072] wlan: [14662:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[  108.076510] br-lan: port 4(ath0) entered forwarding state
+[  108.076520] br-lan: topology change detected, propagating
+[  109.151224] br-lan: port 5(ath1) entered blocking state
+[  109.151234] br-lan: port 5(ath1) entered disabled state
+[  109.152345] device ath1 entered promiscuous mode
+[  109.153260] br-lan: port 5(ath1) entered blocking state
+[  109.153275] br-lan: port 5(ath1) entered listening state
+[  109.359179] wlan: [4873:I:ANY] DES SSID SET=nekodiumFPT
+[  109.359425] wlan: [4873:I:ANY] desired hw mode: 31
+[  109.363922] wlan: [4873:I:ANY] wlan_cfg80211_chan_to_phymode: band:1 width: 5 channel_cfreq: 5620 center_freq1: 5570 chandef.center_freq2: 0 flags: 0
+[  109.371310] wlan: [4873:I:ANY] HT Support:eddd3dd5 VHT Support:f7e04511 HE Support:73dca185
+[  109.383198] wlan: [4873:I:ANY] Max supported wireless mode: 3
+[  109.391339] wlan: [4873:I:ANY] Phymode: 31 
+[  109.391339] 
+[  109.395959] wlan: [4873:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[  109.395959]  Channel is configured already!!
+[  109.404349] wlan: [4873:I:MBSSIE] wlan_cfg80211_start_ap: Set tx-vap ath1: vdev_id:0
+[  109.413281] wlan: [4873:E:MBSSIE] ieee80211_ucfg_set_txvap: MBSSID is not enabled
+[  109.443376] wlan: [0:E:ANY] mlme_vdev_start_continue_cb: aei : changed phymode 29 to 29 on channel 5620
+[  109.443376] 
+[  109.443849] wlan: [0:W:ANY] ieee80211_set_ul_mumimo: Overriding UL MUMIMO configuration to 0 as per Target Capability for VDEV 0
+[  109.453596] wlan: [0:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:0|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[  109.465183] wlan: [0:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x33
+[  110.109281] wlan: [14819:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[  110.133563] wlan: [14822:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.133791] wlan: [14822:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[  110.164210] wlan: [14825:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.164353] wlan: [14825:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[  110.194846] wlan: [14828:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.195179] wlan: [14828:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[  110.225446] wlan: [14831:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.225588] wlan: [14831:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[  110.255708] wlan: [14834:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.255980] wlan: [14834:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[  110.288886] wlan: [14838:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.289035] wlan: [14838:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[  110.320519] wlan: [14841:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.320751] wlan: [14841:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[  110.352828] wlan: [14844:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.353062] wlan: [14844:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[  110.404514] wlan: [14853:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.404953] wlan: [14853:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[  110.451265] wlan: [14862:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.451491] wlan: [14862:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[  110.498538] wlan: [14869:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.498957] wlan: [14869:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[  110.562204] wlan: [14875:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.562568] wlan: [14875:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[  110.605464] wlan: [14880:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.605698] wlan: [14880:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[  110.651637] wlan: [14890:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.651992] wlan: [14890:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[  110.704447] wlan: [14902:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.704726] wlan: [14902:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[  110.757560] wlan: [14914:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.757785] wlan: [14914:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[  110.790815] wlan: [14917:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.791081] wlan: [14917:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[  110.821214] wlan: [14920:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.821511] wlan: [14920:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[  110.851040] wlan: [14923:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.851337] wlan: [14923:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[  110.882762] wlan: [14926:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.883084] wlan: [14926:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[  110.913552] wlan: [14929:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.913841] wlan: [14929:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[  110.944907] wlan: [14932:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  110.945177] wlan: [14932:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[  111.196513] br-lan: port 5(ath1) entered learning state
+[  111.870069] br-lan: port 6(ath11) entered blocking state
+[  111.870079] br-lan: port 6(ath11) entered disabled state
+[  111.871302] device ath11 entered promiscuous mode
+[  111.871970] br-lan: port 6(ath11) entered blocking state
+[  111.871988] br-lan: port 6(ath11) entered listening state
+[  112.097924] wlan: [4873:I:ANY] DES SSID SET=FPT TelecomBH-B331
+[  112.098059] wlan: [4873:I:ANY] desired hw mode: 31
+[  112.103315] wlan: [4873:I:ANY] wlan_cfg80211_chan_to_phymode: band:1 width: 5 channel_cfreq: 5620 center_freq1: 5570 chandef.center_freq2: 0 flags: 0
+[  112.110160] wlan: [4873:I:ANY] HT Support:93723a59 VHT Support:e29fe003 HE Support:2ea3f2ed
+[  112.122391] wlan: [4873:I:ANY] Max supported wireless mode: 3
+[  112.130461] wlan: [4873:I:ANY] Phymode: 31 
+[  112.130461] 
+[  112.135351] wlan: [4873:I:ANY] ieee80211_ucfg_set_freq_internal: 
+[  112.135351]  Channel is configured already!!
+[  112.143474] wlan: [4873:I:MBSSIE] wlan_cfg80211_start_ap: Set tx-vap ath11: vdev_id:1
+[  112.152360] wlan: [4873:E:MBSSIE] ieee80211_ucfg_set_txvap: MBSSID is not enabled
+[  112.165422] wlan: [0:E:ANY] mlme_vdev_start_continue_cb: aei : changed phymode 29 to 29 on channel 5620
+[  112.165422] 
+[  112.166808] wlan: [0:W:ANY] ieee80211_set_ul_mumimo: Overriding UL MUMIMO configuration to 0 as per Target Capability for VDEV 1
+[  112.177357] wlan: [0:I:ANY] ol_ath_vap_set_param: VDEV params:HE su_bfee:1|su_bfer:1|mu_bfee:0|mu_bfer:0|dl_muofdma:1|ul_muofdma:1|ul_mumimo:0|dl_muofdma_bfer:0|disable_mu_mimo: 0
+[  112.188947] wlan: [0:I:ANY] ol_ath_vap_set_param: he_bf_cap=0x33
+[  113.085819] wlan: [15057:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[  113.110962] wlan: [15061:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.111256] wlan: [15061:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[  113.145761] wlan: [15064:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.146000] wlan: [15064:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[  113.178317] wlan: [15068:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.178609] wlan: [15068:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[  113.210036] wlan: [15071:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.210181] wlan: [15071:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[  113.240101] wlan: [15074:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.240449] wlan: [15074:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[  113.273091] wlan: [15078:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.273314] wlan: [15078:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[  113.276508] br-lan: port 5(ath1) entered forwarding state
+[  113.279744] br-lan: topology change detected, propagating
+[  113.306944] wlan: [15082:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.307233] wlan: [15082:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[  113.337430] wlan: [15085:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.337997] wlan: [15085:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[  113.368868] wlan: [15088:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.369091] wlan: [15088:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[  113.399512] wlan: [15091:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.399849] wlan: [15091:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[  113.429434] wlan: [15094:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.429660] wlan: [15094:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[  113.460349] wlan: [15097:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.460573] wlan: [15097:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[  113.490693] wlan: [15100:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.490990] wlan: [15100:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[  113.522361] wlan: [15103:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.522582] wlan: [15103:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[  113.552214] wlan: [15106:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.552506] wlan: [15106:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[  113.583477] wlan: [15109:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.583779] wlan: [15109:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[  113.614258] wlan: [15112:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.614604] wlan: [15112:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[  113.645284] wlan: [15115:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.645780] wlan: [15115:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[  113.674951] wlan: [15118:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.675091] wlan: [15118:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[  113.706467] wlan: [15121:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.706870] wlan: [15121:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[  113.737190] wlan: [15124:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.737332] wlan: [15124:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[  113.768477] wlan: [15127:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  113.768699] wlan: [15127:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[  113.916557] br-lan: port 6(ath11) entered learning state
+[  115.288247] wlan: [15229:I:ANY] ieee80211_ucfg_setparam_util: Set DSCP override 1
+[  115.312020] wlan: [15232:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.312311] wlan: [15232:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 0, dscp : 0  to tid 0
+[  115.341994] wlan: [15235:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.342279] wlan: [15235:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 32, dscp : 8  to tid 1
+[  115.372508] wlan: [15238:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.372852] wlan: [15238:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 40, dscp : 10  to tid 0
+[  115.402628] wlan: [15241:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.402923] wlan: [15241:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 48, dscp : 12  to tid 0
+[  115.433239] wlan: [15244:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.433459] wlan: [15244:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 56, dscp : 14  to tid 0
+[  115.467795] wlan: [15248:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.468292] wlan: [15248:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 64, dscp : 16  to tid 0
+[  115.521260] wlan: [15257:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.521570] wlan: [15257:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 72, dscp : 18  to tid 3
+[  115.566719] wlan: [15264:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.566974] wlan: [15264:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 80, dscp : 20  to tid 3
+[  115.608209] wlan: [15269:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.608463] wlan: [15269:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 88, dscp : 22  to tid 3
+[  115.655516] wlan: [15273:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.655679] wlan: [15273:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 96, dscp : 24  to tid 4
+[  115.689727] wlan: [15276:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.690142] wlan: [15276:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 104, dscp : 26  to tid 4
+[  115.725502] wlan: [15281:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.725817] wlan: [15281:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 112, dscp : 28  to tid 4
+[  115.767852] wlan: [15284:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.768100] wlan: [15284:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 120, dscp : 30  to tid 4
+[  115.806040] wlan: [15288:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.806309] wlan: [15288:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 128, dscp : 32  to tid 4
+[  115.843606] wlan: [15291:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.843980] wlan: [15291:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 136, dscp : 34  to tid 4
+[  115.888247] wlan: [15298:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.888552] wlan: [15298:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 144, dscp : 36  to tid 4
+[  115.936340] wlan: [15309:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.938320] wlan: [15309:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 152, dscp : 38  to tid 4
+[  115.983213] wlan: [15317:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  115.983480] wlan: [15317:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 160, dscp : 40  to tid 5
+[  115.996611] br-lan: port 6(ath11) entered forwarding state
+[  115.996638] br-lan: topology change detected, propagating
+[  116.026114] wlan: [15322:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  116.026453] wlan: [15322:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 176, dscp : 44  to tid 6
+[  116.068968] wlan: [15325:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  116.069222] wlan: [15325:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 184, dscp : 46  to tid 6
+[  116.115729] wlan: [15329:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  116.116130] wlan: [15329:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 192, dscp : 48  to tid 7
+[  116.153881] wlan: [15333:I:ANY] ieee80211_ucfg_setparam_util: Set vap dscp tid map
+[  116.154047] wlan: [15333:I:ANY] wlan_set_vap_dscp_tid_map:  Configuring tos: 224, dscp : 56  to tid 7
+[  120.438092] cnss: INFO: cnss_plat_ipc_qmi_send_config_param_req_handler: Param: 7 Instance ID: 0x2 Value: 0
+[  120.438372] cnss: INFO: cnss_config_param_update_cb: Instance ID: 0x2 Param 7 Value: 0
+[  120.447784] cnss[2]: INFO: Starting QDSS for QCA5018
+[  120.447794] cnss[2]: INFO: QDSS is already started: 0x30007
